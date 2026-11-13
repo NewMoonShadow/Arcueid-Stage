@@ -1,0 +1,457 @@
+{
+  "canvas": [
+    768,
+    1024
+  ],
+  "assets": {
+    "aru_a_80_00_n00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_80_00_n00.png"
+    },
+    "aru_a_80_00_n02": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_80_00_n02.png"
+    },
+    "aru_a_80_00_n05": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_80_00_n05.png"
+    },
+    "aru_a_80_00_n07": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_80_00_n07.png"
+    },
+    "aru_a_80_00_n08": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_80_00_n08.png"
+    },
+    "aru_a_80_01_n00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_80_01_n00.png"
+    },
+    "aru_a_80_01_n03": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_80_01_n03.png"
+    },
+    "aru_a_80_01_n04": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_80_01_n04.png"
+    },
+    "aru_a_80_01_n06": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_80_01_n06.png"
+    },
+    "aru_a_80_02_n01": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_80_02_n01.png"
+    },
+    "aru_a_80_03_n01": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_80_03_n01.png"
+    },
+    "aru_a_80_03_n03": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_80_03_n03.png"
+    },
+    "aru_a_80_03_n05": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_80_03_n05.png"
+    },
+    "aru_a_80_03_n06": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_80_03_n06.png"
+    },
+    "aru_a_80_03_n07": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_80_03_n07.png"
+    },
+    "aru_a_80_04_n01": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_80_04_n01.png"
+    },
+    "aru_a_81_01_n01": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_81_01_n01.png"
+    },
+    "aru_a_81_01_n02": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_81_01_n02.png"
+    },
+    "aru_a_81_01_n04": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_81_01_n04.png"
+    },
+    "aru_a_81_01_n06": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_81_01_n06.png"
+    },
+    "aru_a_81_01_n07": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_81_01_n07.png"
+    },
+    "aru_a_81_01_n09": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_81_01_n09.png"
+    },
+    "aru_a_81_01_n10": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_81_01_n10.png"
+    },
+    "aru_a_81_01_n12": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_81_01_n12.png"
+    },
+    "aru_a_81_01_n13": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_81_01_n13.png"
+    },
+    "aru_a_81_02_n01": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_81_02_n01.png"
+    },
+    "aru_a_81_02_n02": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_81_02_n02.png"
+    },
+    "aru_a_81_02_n03": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_81_02_n03.png"
+    },
+    "aru_a_81_02_n05": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_81_02_n05.png"
+    },
+    "aru_a_81_03_n00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_81_03_n00.png"
+    },
+    "aru_a_81_03_n01": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_81_03_n01.png"
+    },
+    "aru_a_81_04_n00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_81_04_n00.png"
+    },
+    "aru_a_81_04_n01": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_81_04_n01.png"
+    },
+    "aru_a_82_01_n02": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_82_01_n02.png"
+    },
+    "aru_a_82_01_n04": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_82_01_n04.png"
+    },
+    "aru_a_82_01_n08": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_82_01_n08.png"
+    },
+    "aru_a_82_01_n10": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_82_01_n10.png"
+    },
+    "aru_a_82_01_n11": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_82_01_n11.png"
+    },
+    "aru_a_82_01_n12": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_82_01_n12.png"
+    },
+    "aru_a_82_01_n13": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_82_01_n13.png"
+    },
+    "aru_a_82_02_n00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_82_02_n00.png"
+    },
+    "aru_a_82_02_n02": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_82_02_n02.png"
+    },
+    "aru_a_82_02_n04": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_82_02_n04.png"
+    },
+    "aru_a_82_03_n00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_82_03_n00.png"
+    },
+    "aru_a_83_00_n00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_83_00_n00.png"
+    },
+    "aru_a_83_00_n04": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_83_00_n04.png"
+    },
+    "aru_a_83_00_n05": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_83_00_n05.png"
+    },
+    "aru_a_83_00_n06": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_83_00_n06.png"
+    },
+    "aru_a_84_06_n00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_06_n00.png"
+    },
+    "aru_a_84_06_n00_01_00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_06_n00_01_00.png"
+    },
+    "aru_a_84_06_n00_02_00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_06_n00_02_00.png"
+    },
+    "aru_a_84_06_n00_03_00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_06_n00_03_00.png"
+    },
+    "aru_a_84_06_n00_04_00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_06_n00_04_00.png"
+    },
+    "aru_a_84_06_n00_05_00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_06_n00_05_00.png"
+    },
+    "aru_a_84_06_n00_06_00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_06_n00_06_00.png"
+    },
+    "aru_a_84_06_n00_07_00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_06_n00_07_00.png"
+    },
+    "aru_a_84_06_n00_08_00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_06_n00_08_00.png"
+    },
+    "aru_a_84_06_n00_09_00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_06_n00_09_00.png"
+    },
+    "aru_a_84_06_n00_10_00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_06_n00_10_00.png"
+    },
+    "aru_a_84_06_n00_11_00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_06_n00_11_00.png"
+    },
+    "aru_a_84_06_n00_12_00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_06_n00_12_00.png"
+    },
+    "aru_a_84_08_n00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_08_n00.png"
+    },
+    "aru_a_84_10_n01": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_10_n01.png"
+    },
+    "aru_a_84_10_n02": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_10_n02.png"
+    },
+    "aru_a_84_11_n00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_11_n00.png"
+    },
+    "aru_a_84_12_n01": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_12_n01.png"
+    },
+    "aru_a_84_14_n00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_14_n00.png"
+    },
+    "aru_a_84_14_n00_00_01": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_14_n00_00_01.png"
+    },
+    "aru_a_84_14_n00_00_02": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_14_n00_00_02.png"
+    },
+    "aru_a_84_14_n00_00_03": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_14_n00_00_03.png"
+    },
+    "aru_a_84_14_n00_00_04": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_14_n00_00_04.png"
+    },
+    "aru_a_84_14_n00_00_05": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_14_n00_00_05.png"
+    },
+    "aru_a_84_14_n00_00_06": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_14_n00_00_06.png"
+    },
+    "aru_a_84_14_n00_00_07": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_14_n00_00_07.png"
+    },
+    "aru_a_84_14_n00_00_08": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_14_n00_00_08.png"
+    },
+    "aru_a_84_14_n00_00_09": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_14_n00_00_09.png"
+    },
+    "aru_a_84_14_n00_00_10": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_14_n00_00_10.png"
+    },
+    "aru_a_84_14_n00_00_11": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_14_n00_00_11.png"
+    },
+    "aru_a_84_14_n02": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_14_n02.png"
+    },
+    "aru_a_84_15_n00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_15_n00.png"
+    },
+    "aru_a_84_15_n00_00_01": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_15_n00_00_01.png"
+    },
+    "aru_a_84_15_n00_00_02": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_15_n00_00_02.png"
+    },
+    "aru_a_84_15_n00_00_03": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_15_n00_00_03.png"
+    },
+    "aru_a_84_15_n00_00_04": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_15_n00_00_04.png"
+    },
+    "aru_a_84_15_n00_00_05": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_15_n00_00_05.png"
+    },
+    "aru_a_84_15_n00_00_06": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_15_n00_00_06.png"
+    },
+    "aru_a_84_15_n00_00_07": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_15_n00_00_07.png"
+    },
+    "aru_a_84_15_n00_00_08": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_15_n00_00_08.png"
+    },
+    "aru_a_84_15_n00_00_09": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_15_n00_00_09.png"
+    },
+    "aru_a_84_15_n00_00_10": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_15_n00_00_10.png"
+    },
+    "aru_a_84_15_n00_00_11": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_15_n00_00_11.png"
+    },
+    "aru_a_84_16_n01": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_16_n01.png"
+    },
+    "aru_a_84_17_n00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_17_n00.png"
+    },
+    "aru_a_84_18_n00": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_18_n00.png"
+    },
+    "aru_a_84_19_n01": {
+      "asset": "res://assets/characters/neco_arc/performance/aru_a_84_19_n01.png"
+    }
+  },
+  "expressions": {
+    "neutral": [
+      "aru_a_80_00_n00",
+      "aru_a_80_00_n05",
+      "aru_a_81_02_n01",
+      "aru_a_82_02_n00",
+      "aru_a_84_11_n00"
+    ],
+    "smile": [
+      "aru_a_80_00_n07",
+      "aru_a_80_01_n03",
+      "aru_a_80_03_n07",
+      "aru_a_81_01_n06",
+      "aru_a_81_02_n05",
+      "aru_a_82_01_n10"
+    ],
+    "curious": [
+      "aru_a_80_03_n05",
+      "aru_a_81_03_n00",
+      "aru_a_82_03_n00"
+    ],
+    "serious": [
+      "aru_a_80_04_n01",
+      "aru_a_81_04_n00"
+    ],
+    "annoyed": [
+      "aru_a_80_00_n08",
+      "aru_a_80_01_n06",
+      "aru_a_81_01_n04",
+      "aru_a_81_02_n03",
+      "aru_a_82_01_n11"
+    ],
+    "surprised": [
+      "aru_a_81_01_n13",
+      "aru_a_82_01_n08",
+      "aru_a_84_18_n00"
+    ],
+    "excited": [
+      "aru_a_81_01_n12",
+      "aru_a_82_01_n12",
+      "aru_a_82_01_n13",
+      "aru_a_84_14_n00"
+    ],
+    "sad": [
+      "aru_a_82_01_n08"
+    ],
+    "smug": [
+      "aru_a_80_02_n01",
+      "aru_a_81_01_n01",
+      "aru_a_81_01_n04",
+      "aru_a_81_02_n02",
+      "aru_a_82_01_n04"
+    ],
+    "wink": [
+      "aru_a_80_00_n02",
+      "aru_a_81_01_n02",
+      "aru_a_81_01_n09",
+      "aru_a_82_01_n02",
+      "aru_a_82_02_n02",
+      "aru_a_83_00_n06",
+      "aru_a_84_19_n01"
+    ],
+    "laughing": [
+      "aru_a_80_03_n03",
+      "aru_a_81_01_n10",
+      "aru_a_82_02_n04",
+      "aru_a_84_08_n00"
+    ],
+    "thinking": [
+      "aru_a_80_03_n01",
+      "aru_a_81_03_n01",
+      "aru_a_81_04_n01"
+    ],
+    "confused": [
+      "aru_a_80_03_n06",
+      "aru_a_83_00_n00",
+      "aru_a_84_17_n00"
+    ],
+    "stunned": [
+      "aru_a_84_18_n00"
+    ],
+    "cheer": [
+      "aru_a_82_01_n13",
+      "aru_a_84_14_n00",
+      "aru_a_84_14_n02"
+    ],
+    "energetic": [
+      "aru_a_84_06_n00",
+      "aru_a_84_10_n02",
+      "aru_a_84_16_n01"
+    ],
+    "explaining": [
+      "aru_a_80_01_n00",
+      "aru_a_80_01_n04",
+      "aru_a_81_01_n07"
+    ],
+    "pouting": [
+      "aru_a_80_01_n06",
+      "aru_a_83_00_n04",
+      "aru_a_83_00_n05"
+    ],
+    "scheming": [
+      "aru_a_83_00_n06",
+      "aru_a_84_10_n01",
+      "aru_a_84_12_n01"
+    ]
+  },
+  "animations": {
+    "cheer": {
+      "frames": [
+        "aru_a_84_14_n00",
+        "aru_a_84_14_n00_00_01",
+        "aru_a_84_14_n00_00_02",
+        "aru_a_84_14_n00_00_03",
+        "aru_a_84_14_n00_00_04",
+        "aru_a_84_14_n00_00_05",
+        "aru_a_84_14_n00_00_06",
+        "aru_a_84_14_n00_00_07",
+        "aru_a_84_14_n00_00_08",
+        "aru_a_84_14_n00_00_09",
+        "aru_a_84_14_n00_00_10",
+        "aru_a_84_14_n00_00_11"
+      ],
+      "fps": 14,
+      "cooldown": 10
+    },
+    "energetic": {
+      "frames": [
+        "aru_a_84_06_n00",
+        "aru_a_84_06_n00_01_00",
+        "aru_a_84_06_n00_02_00",
+        "aru_a_84_06_n00_03_00",
+        "aru_a_84_06_n00_04_00",
+        "aru_a_84_06_n00_05_00",
+        "aru_a_84_06_n00_06_00",
+        "aru_a_84_06_n00_07_00",
+        "aru_a_84_06_n00_08_00",
+        "aru_a_84_06_n00_09_00",
+        "aru_a_84_06_n00_10_00",
+        "aru_a_84_06_n00_11_00",
+        "aru_a_84_06_n00_12_00"
+      ],
+      "fps": 16,
+      "cooldown": 10
+    },
+    "excited": {
+      "frames": [
+        "aru_a_84_15_n00",
+        "aru_a_84_15_n00_00_01",
+        "aru_a_84_15_n00_00_02",
+        "aru_a_84_15_n00_00_03",
+        "aru_a_84_15_n00_00_04",
+        "aru_a_84_15_n00_00_05",
+        "aru_a_84_15_n00_00_06",
+        "aru_a_84_15_n00_00_07",
+        "aru_a_84_15_n00_00_08",
+        "aru_a_84_15_n00_00_09",
+        "aru_a_84_15_n00_00_10",
+        "aru_a_84_15_n00_00_11"
+      ],
+      "fps": 14,
+      "cooldown": 12
+    }
+  }
+}

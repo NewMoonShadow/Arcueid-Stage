@@ -1,0 +1,132 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://scripts/ChapterTransition.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/ui/title-moon-source.png" id="2_moon"]
+[ext_resource type="Shader" path="res://assets/shaders/chapter_moon.gdshader" id="3_shader"]
+
+[sub_resource type="SystemFont" id="Serif"]
+font_names = PackedStringArray("SimSun", "Noto Serif CJK SC", "Times New Roman", "serif")
+font_weight = 400
+
+[sub_resource type="SystemFont" id="NumberFont"]
+font_names = PackedStringArray("Times New Roman", "serif")
+font_weight = 400
+
+[sub_resource type="ShaderMaterial" id="MoonMaterial"]
+shader = ExtResource("3_shader")
+
+[node name="ChapterTransition" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+clip_contents = true
+script = ExtResource("1_script")
+
+[node name="ChapterMusic" type="AudioStreamPlayer" parent="."]
+volume_db = -12.0
+bus = &"Music"
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Composition" type="Control" parent="."]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+mouse_filter = 2
+
+[node name="Moon" type="TextureRect" parent="Composition"]
+material = SubResource("MoonMaterial")
+layout_mode = 0
+offset_left = 1280.0
+offset_top = -1080.0
+offset_right = 4520.0
+offset_bottom = 2160.0
+mouse_filter = 2
+texture = ExtResource("2_moon")
+expand_mode = 1
+
+[node name="SlashGlow" type="Line2D" parent="Composition"]
+points = PackedVector2Array(40, 440, 276, 700)
+width = 9.0
+default_color = Color(0.1, 0.6, 0.8, 0.07)
+antialiased = true
+
+[node name="Slash" type="Line2D" parent="Composition"]
+points = PackedVector2Array(40, 440, 276, 700)
+width = 1.2
+default_color = Color(0.15, 0.66, 0.86, 0.5)
+antialiased = true
+
+[node name="Divider" type="Line2D" parent="Composition"]
+points = PackedVector2Array(304, 430, 304, 770)
+width = 1.0
+default_color = Color(0.65, 0.65, 0.68, 0.65)
+antialiased = true
+
+[node name="Kind" type="Label" parent="Composition"]
+layout_mode = 0
+offset_left = 74.0
+offset_top = 453.0
+offset_right = 259.0
+offset_bottom = 488.0
+mouse_filter = 2
+theme_override_fonts/font = SubResource("NumberFont")
+theme_override_font_sizes/font_size = 28
+theme_override_colors/font_color = Color(0.35, 0.88, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.05, 0.8, 1, 0.55)
+theme_override_constants/shadow_outline_size = 7
+text = "DAY"
+horizontal_alignment = 1
+
+[node name="NumberGlow" type="Label" parent="Composition"]
+layout_mode = 0
+offset_left = 84.0
+offset_top = 471.0
+offset_right = 254.0
+offset_bottom = 690.0
+mouse_filter = 2
+theme_override_fonts/font = SubResource("NumberFont")
+theme_override_font_sizes/font_size = 184
+theme_override_colors/font_color = Color(0.05, 0.72, 1, 0.15)
+theme_override_colors/font_outline_color = Color(0.05, 0.7, 1, 0.10)
+theme_override_constants/outline_size = 14
+text = "1"
+horizontal_alignment = 1
+
+[node name="Number" type="Label" parent="Composition"]
+layout_mode = 0
+offset_left = 84.0
+offset_top = 471.0
+offset_right = 254.0
+offset_bottom = 690.0
+mouse_filter = 2
+theme_override_fonts/font = SubResource("NumberFont")
+theme_override_font_sizes/font_size = 184
+theme_override_colors/font_color = Color(0.25, 0.84, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.05, 0.75, 1, 0.65)
+theme_override_constants/shadow_outline_size = 5
+text = "1"
+horizontal_alignment = 1
+
+[node name="ChapterTitle" type="Label" parent="Composition"]
+layout_mode = 0
+offset_left = 404.0
+offset_top = 533.0
+offset_right = 1320.0
+offset_bottom = 640.0
+mouse_filter = 2
+theme_override_fonts/font = SubResource("Serif")
+theme_override_font_sizes/font_size = 72
+theme_override_colors/font_color = Color(0.96, 0.96, 0.98, 1)
+text = "公园前的阻拦"
+vertical_alignment = 1

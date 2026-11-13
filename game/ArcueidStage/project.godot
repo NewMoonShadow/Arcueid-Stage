@@ -1,0 +1,39 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Arcueid Stage"
+run/main_scene="res://scenes/Title.tscn"
+config/features=PackedStringArray("4.7")
+
+[autoload]
+
+AppState="*res://scripts/AppState.gd"
+ApiClient="*res://scripts/ApiClient.gd"
+LatencyLog="*res://scripts/LatencyLog.gd"
+StageDirector="*res://scripts/StageDirector.gd"
+AudioController="*res://scripts/AudioController.gd"
+SceneTransition="*res://scripts/SceneTransition.gd"
+UiInteractions="*res://scripts/UiInteractions.gd"
+SaveIndicator="*res://scripts/SaveIndicator.gd"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/window_width_override=1920
+window/size/window_height_override=1080
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

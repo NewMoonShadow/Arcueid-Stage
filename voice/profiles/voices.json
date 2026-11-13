@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "voices": [
+    {"speaker": "arcueid", "port": 9880, "model_id": "arcueid_utf8_v2pro", "gpt": "GPT_weights_v2Pro/arcueid_utf8_v2pro-e15.ckpt", "sovits": "SoVITS_weights_v2Pro/arcueid_utf8_v2pro_e8_s2656.pth", "reference": "arcueid.wav"},
+    {"speaker": "neco_arc", "port": 9881, "model_id": "neco_arc_v2pro", "gpt": "GPT_weights_v2Pro/neco_arc_v2pro-e12.ckpt", "sovits": "SoVITS_weights_v2Pro/neco_arc_v2pro_e8_s160.pth", "reference": "neco_arc.wav"},
+    {"speaker": "ciel", "port": 9882, "model_id": "ciel_fullclips_v2pro_20261005_e12_s8", "gpt": "GPT_weights_v2Pro/ciel_fullclips_v2pro_20261005-e12.ckpt", "sovits": "SoVITS_weights_v2Pro/ciel_fullclips_v2pro_20261005_e8_s648.pth", "reference": "ciel.wav"}
+  ]
+}

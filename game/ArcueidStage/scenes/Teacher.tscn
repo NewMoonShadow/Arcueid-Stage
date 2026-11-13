@@ -1,0 +1,184 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/Main.tscn" id="1_base"]
+[ext_resource type="Script" path="res://scripts/Teacher.gd" id="2_teacher"]
+[ext_resource type="Texture2D" path="res://assets/backgrounds/classroom-board.png" id="3_classroom"]
+[ext_resource type="Texture2D" path="res://assets/characters/neco_arc/neutral.png" id="4_neco_neutral"]
+[ext_resource type="Script" path="res://scripts/BgmPlayer.gd" id="5_bgm"]
+[ext_resource type="AudioStream" path="res://assets/music/classroom.mp3" id="6_music"]
+
+[node name="Teacher" instance=ExtResource("1_base")]
+script = ExtResource("2_teacher")
+
+[node name="BackgroundLayer" parent="." index="0"]
+texture = ExtResource("3_classroom")
+
+[node name="BackdropTint" parent="." index="1"]
+color = Color(0.025, 0.045, 0.08, 0.18)
+
+[node name="MoonWash" parent="." index="2"]
+visible = false
+
+[node name="BrandTitle" parent="TopBar/BrandText" index="0"]
+text = "ARCUEID · CLASSROOM STAGE"
+
+[node name="BrandSubtitle" parent="TopBar/BrandText" index="1"]
+text = "教教我吧，爱尔奎特老师　 /　 Q&A"
+
+[node name="Eyebrow" parent="SceneInfo" index="0"]
+text = "—　CLASSROOM · ALL ROUTES"
+
+[node name="SceneTitle" parent="SceneInfo" index="1"]
+text = "教教我吧，爱尔奎特老师"
+
+[node name="SceneSubtitle" parent="SceneInfo" index="2"]
+text = "全路线知识　｜　独立问答存档"
+
+[node name="MemoryTeaser" parent="SceneInfo" index="4"]
+text = "角色、设定、路线与结局，都可以直接问。"
+
+[node name="LastLine" parent="SceneInfo" index="5"]
+visible = false
+text = "「好啦，今天就由我来当老师！\n你想先问什么？」\n\nArcueid　·　刚才"
+
+[node name="SceneInfo" parent="."]
+anchor_top = 0.215
+anchor_bottom = 0.35
+
+[node name="TopBar" parent="."]
+z_index = 2
+
+[node name="PortraitHalo" parent="CharacterStage"]
+visible = false
+
+[node name="CharacterStage" parent="."]
+z_index = 2
+
+[node name="SpeakerRow" parent="DialogueLayer"]
+visible = false
+
+[node name="ClassroomHeader" type="ColorRect" parent="."]
+z_index = 1
+layout_mode = 1
+anchor_right = 1.0
+anchor_bottom = 0.105
+mouse_filter = 2
+color = Color(0.025, 0.05, 0.09, 0.76)
+
+[node name="NecoPortrait" type="TextureRect" parent="."]
+texture_filter = 4
+unique_name_in_owner = true
+layout_mode = 1
+anchor_left = 0.045
+anchor_top = 0.55
+anchor_right = 0.20
+anchor_bottom = 0.835
+mouse_filter = 2
+texture = ExtResource("4_neco_neutral")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="NecoBubble" type="PanelContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchor_left = 0.205
+anchor_top = 0.715
+anchor_right = 0.52
+anchor_bottom = 0.835
+
+[node name="NecoBubbleRows" type="VBoxContainer" parent="NecoBubble"]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="NecoName" type="Label" parent="NecoBubble/NecoBubbleRows"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.79, 0.86, 1)
+theme_override_font_sizes/font_size = 17
+text = "猫姬　·　旁听生"
+
+[node name="NecoScroll" type="ScrollContainer" parent="NecoBubble/NecoBubbleRows"]
+unique_name_in_owner = true
+layout_mode = 2
+custom_minimum_size = Vector2(0, 75)
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="NecoLine" type="Label" parent="NecoBubble/NecoBubbleRows/NecoScroll"]
+unique_name_in_owner = true
+size_flags_horizontal = 3
+layout_mode = 2
+theme_override_colors/font_color = Color(0.93, 0.96, 1, 1)
+theme_override_font_sizes/font_size = 17
+text = "喵？这堂课可别让我无聊哦。"
+autowrap_mode = 2
+
+[node name="ReturnButton" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchor_left = 0.052
+anchor_top = 0.925
+anchor_right = 0.20
+anchor_bottom = 0.975
+text = "←　返回标题"
+
+[node name="RecentPanel" parent="."]
+z_index = 50
+anchor_left = 0.052
+anchor_top = 0.385
+anchor_right = 0.54
+anchor_bottom = 0.70
+
+[node name="ArcueidBubble" type="PanelContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchor_left = 0.335
+anchor_top = 0.395
+anchor_right = 0.635
+anchor_bottom = 0.60
+
+[node name="Rows" type="VBoxContainer" parent="ArcueidBubble"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Name" type="Label" parent="ArcueidBubble/Rows"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.77, 0.91, 1, 1)
+theme_override_font_sizes/font_size = 18
+text = "爱尔奎特　·　老师"
+
+[node name="ArcueidScroll" type="ScrollContainer" parent="ArcueidBubble/Rows"]
+unique_name_in_owner = true
+layout_mode = 2
+custom_minimum_size = Vector2(0, 140)
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="ArcueidLine" type="Label" parent="ArcueidBubble/Rows/ArcueidScroll"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.93, 0.96, 1, 1)
+theme_override_font_sizes/font_size = 18
+autowrap_mode = 2
+
+[node name="ClassroomSpeakerRow" type="HBoxContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchor_left = 0.21
+anchor_top = 0.855
+anchor_right = 0.44
+anchor_bottom = 0.895
+theme_override_constants/separation = 12
+
+[node name="Label" type="Label" parent="ClassroomSpeakerRow"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.1, 0.22, 0.29, 1)
+theme_override_font_sizes/font_size = 16
+text = "对话对象"
+
+[node name="BGM" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_music")
+bus = &"Music"
+script = ExtResource("5_bgm")
+base_volume_db = -20.0
+duck_for_voice = true

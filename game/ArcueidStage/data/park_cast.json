@@ -1,0 +1,45 @@
+{
+  "arcueid": {
+    "neutral": {
+      "asset": "res://assets/characters/park_sequence/aru_a_00_00_n00.png"
+    },
+    "serious": {
+      "asset": "res://assets/characters/park_sequence/aru_a_00_05_n00.png"
+    },
+    "annoyed": {
+      "asset": "res://assets/characters/park_sequence/aru_a_07_00_n07.png"
+    },
+    "smile": {
+      "asset": "res://assets/characters/park_sequence/aru_a_07_02_n11.png"
+    },
+    "confident": {
+      "asset": "res://assets/characters/park_sequence/aru_a_07_00_n02.png"
+    },
+    "declaring": {
+      "asset": "res://assets/characters/park_sequence/aru_a_00_03_n03.png"
+    },
+    "bite": {
+      "asset": "res://assets/characters/park_sequence/aru_a_24_00_n00.png"
+    }
+  },
+  "ciel": {
+    "neutral": {
+      "asset": "res://assets/characters/park_sequence/sie_a_09_01_n00.png"
+    },
+    "serious": {
+      "asset": "res://assets/characters/park_sequence/sie_a_09_03_n00.png"
+    },
+    "annoyed": {
+      "asset": "res://assets/characters/park_sequence/sie_a_09_04_n03.png"
+    },
+    "surprised": {
+      "asset": "res://assets/characters/park_sequence/sie_a_09_02_n01.png"
+    },
+    "smile": {
+      "asset": "res://assets/characters/park_sequence/sie_a_09_00_n00.png"
+    },
+    "thinking": {
+      "asset": "res://assets/characters/park_sequence/sie_a_09_04_n05.png"
+    }
+  }
+}

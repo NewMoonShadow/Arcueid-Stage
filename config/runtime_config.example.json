@@ -1,0 +1,10 @@
+{
+  "provider": "openai-compatible",
+  "api_key": "",
+  "model": "",
+  "base_url": "",
+  "port": 8765,
+  "temperature": 0.85,
+  "top_p": 0.95,
+  "thinking": false
+}

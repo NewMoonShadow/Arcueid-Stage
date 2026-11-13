@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/RVC-Boss/GPT-SoVITS.git",
+  "commit": "bf81cdb14a38b674b6e9996dabc97340bc9978d2",
+  "directory": "runtime/gpt-sovits",
+  "model_version": "v2Pro",
+  "notes": "Engine source only. Pretrained models, accepted checkpoints, reference audio and the WSL environment are separate local dependencies."
+}

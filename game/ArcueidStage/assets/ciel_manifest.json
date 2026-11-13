@@ -1,0 +1,163 @@
+{
+  "neutral": {
+    "asset": "res://assets/characters/ciel/performance/sie_a_09_01_n00.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_01_n00.png"
+      }
+    ]
+  },
+  "smile": {
+    "asset": "res://assets/characters/ciel/performance/sie_a_09_00_n00.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_00_n00.png"
+      },
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_04_n02.png"
+      }
+    ]
+  },
+  "curious": {
+    "asset": "res://assets/characters/ciel/performance/sie_a_09_01_n01.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_01_n01.png"
+      },
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_04_n01.png"
+      }
+    ]
+  },
+  "serious": {
+    "asset": "res://assets/characters/ciel/performance/sie_a_09_03_n00.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_03_n00.png"
+      },
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_01_n00.png"
+      }
+    ]
+  },
+  "annoyed": {
+    "asset": "res://assets/characters/ciel/performance/sie_a_09_04_n03.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_04_n03.png"
+      },
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_01_n02.png"
+      }
+    ]
+  },
+  "surprised": {
+    "asset": "res://assets/characters/ciel/performance/sie_a_09_02_n01.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_02_n01.png"
+      }
+    ]
+  },
+  "laughing": {
+    "asset": "res://assets/characters/ciel/performance/sie_a_09_03_n04.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_03_n04.png"
+      }
+    ]
+  },
+  "confident": {
+    "asset": "res://assets/characters/ciel/performance/sie_a_09_04_n02.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_04_n02.png"
+      },
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_00_n00.png"
+      }
+    ]
+  },
+  "thinking": {
+    "asset": "res://assets/characters/ciel/performance/sie_a_09_04_n05.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_04_n05.png"
+      },
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_03_n03.png"
+      }
+    ]
+  },
+  "shy": {
+    "asset": "res://assets/characters/ciel/performance/sie_a_09_04_n00.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_04_n00.png"
+      }
+    ]
+  },
+  "pouting": {
+    "asset": "res://assets/characters/ciel/performance/sie_a_09_03_n01.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_03_n01.png"
+      }
+    ]
+  },
+  "concerned": {
+    "asset": "res://assets/characters/ciel/performance/sie_a_09_02_n00.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_02_n00.png"
+      },
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_04_n01.png"
+      }
+    ]
+  },
+  "explaining": {
+    "asset": "res://assets/characters/ciel/performance/sie_a_09_01_n04.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_01_n04.png"
+      },
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_03_n03.png"
+      }
+    ]
+  },
+  "teasing": {
+    "asset": "res://assets/characters/ciel/performance/sie_a_09_04_n02.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_04_n02.png"
+      },
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_00_n00.png"
+      }
+    ]
+  },
+  "delighted": {
+    "asset": "res://assets/characters/ciel/performance/sie_a_09_03_n04.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_03_n04.png"
+      },
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_04_n02.png"
+      }
+    ]
+  },
+  "stern": {
+    "asset": "res://assets/characters/ciel/performance/sie_a_09_03_n00.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_03_n00.png"
+      },
+      {
+        "asset": "res://assets/characters/ciel/performance/sie_a_09_01_n02.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,907 @@
+[gd_scene load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/Main.gd" id="1_main"]
+[ext_resource type="Script" path="res://scripts/MoonActivity.gd" id="5_activity"]
+[ext_resource type="Texture2D" path="res://assets/characters/arcueid/neutral.png" id="2_portrait"]
+[ext_resource type="Texture2D" path="res://assets/characters/ciel/performance/sie_a_09_01_n00.png" id="6_ciel_portrait"]
+[ext_resource type="Texture2D" path="res://assets/backgrounds/evening-crossroads.png" id="3_background"]
+[ext_resource type="Texture2D" path="res://assets/ui/moon-clouds.png" id="4_moon"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dialogue"]
+bg_color = Color(0.025, 0.055, 0.115, 0.72)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.68, 0.84, 1, 0.36)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+shadow_color = Color(0.01, 0.025, 0.07, 0.65)
+shadow_size = 20
+shadow_offset = Vector2(0, 7)
+content_margin_left = 16.0
+content_margin_top = 14.0
+content_margin_right = 16.0
+content_margin_bottom = 14.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_panel"]
+bg_color = Color(0.035, 0.075, 0.15, 0.97)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.68, 0.84, 1, 0.45)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+shadow_color = Color(0.005, 0.015, 0.05, 0.75)
+shadow_size = 24
+shadow_offset = Vector2(0, 8)
+content_margin_left = 25.0
+content_margin_top = 23.0
+content_margin_right = 25.0
+content_margin_bottom = 22.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_field"]
+bg_color = Color(0.025, 0.055, 0.115, 0.95)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.65, 0.78, 0.94, 0.28)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+content_margin_left = 10.0
+content_margin_top = 8.0
+content_margin_right = 10.0
+content_margin_bottom = 8.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_row"]
+bg_color = Color(0.08, 0.14, 0.25, 0.72)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.65, 0.78, 0.94, 0.16)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+content_margin_left = 12.0
+content_margin_top = 10.0
+content_margin_right = 12.0
+content_margin_bottom = 10.0
+
+[node name="Main" type="Control" unique_id=1436728644]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_main")
+
+[node name="BackgroundLayer" type="TextureRect" parent="." unique_id=1448511169]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("3_background")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="BackdropTint" type="ColorRect" parent="." unique_id=1316209056]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.025, 0.055, 0.12, 0.38)
+
+[node name="MoonWash" type="TextureRect" parent="." unique_id=1316209057]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+modulate = Color(0.72, 0.85, 1, 0.2)
+texture = ExtResource("4_moon")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="CharacterStage" type="Control" parent="." unique_id=1110112425]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="PortraitHalo" type="ColorRect" parent="CharacterStage" unique_id=1261714431]
+layout_mode = 0
+anchor_left = 0.54
+anchor_top = 0.15
+anchor_right = 0.84
+anchor_bottom = 0.87
+mouse_filter = 2
+color = Color(0.35, 0.68, 1, 0.07)
+
+[node name="Portrait" type="TextureRect" parent="CharacterStage" unique_id=1261714432]
+texture_filter = 4
+unique_name_in_owner = true
+layout_mode = 0
+anchor_left = 0.34
+anchor_top = 0.15
+anchor_right = 1.04
+anchor_bottom = 1.65
+pivot_offset = Vector2(672, 1620)
+mouse_filter = 2
+texture = ExtResource("2_portrait")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="CielPortrait" type="TextureRect" parent="CharacterStage"]
+visible = false
+texture_filter = 4
+unique_name_in_owner = true
+layout_mode = 0
+anchor_left = 0.065
+anchor_top = 0.15
+anchor_right = 0.765
+anchor_bottom = 1.65
+pivot_offset = Vector2(672, 1620)
+mouse_filter = 2
+texture = ExtResource("6_ciel_portrait")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TopBar" type="HBoxContainer" parent="." unique_id=1930222001]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 96.0
+offset_top = 25.0
+offset_right = -96.0
+offset_bottom = 88.0
+grow_horizontal = 2
+theme_override_constants/separation = 14
+
+[node name="MoonMark" type="Control" parent="TopBar" unique_id=1930222002]
+custom_minimum_size = Vector2(46, 46)
+layout_mode = 2
+size_flags_vertical = 4
+script = ExtResource("5_activity")
+
+[node name="BrandText" type="VBoxContainer" parent="TopBar" unique_id=1930222003]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 2
+
+[node name="BrandTitle" type="Label" parent="TopBar/BrandText" unique_id=1930222004]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.9, 0.95, 1, 1)
+theme_override_font_sizes/font_size = 15
+text = "ARCUEID · MOONLIT STAGE"
+
+[node name="BrandSubtitle" type="Label" parent="TopBar/BrandText" unique_id=1930222005]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.68, 0.78, 0.9, 1)
+theme_override_font_sizes/font_size = 12
+text = "月下的对话舞台　 /　 EPISODE 01"
+
+[node name="StatusLabel" type="Label" parent="TopBar" unique_id=535352765]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(205, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.69, 0.92, 0.84, 1)
+theme_override_font_sizes/font_size = 13
+text = "●　正在连接本地核心"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="SceneInfo" type="VBoxContainer" parent="." unique_id=1930222010]
+layout_mode = 1
+anchors_preset = 0
+anchor_left = 0.052
+anchor_top = 0.15
+anchor_right = 0.27
+anchor_bottom = 0.46
+offset_right = 6.0
+theme_override_constants/separation = 10
+
+[node name="Eyebrow" type="Label" parent="SceneInfo" unique_id=1930222011]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.67, 0.91, 1, 1)
+theme_override_font_sizes/font_size = 12
+text = "—　A QUIET EVENING"
+
+[node name="SceneTitle" type="Label" parent="SceneInfo" unique_id=1930222012]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.95, 0.97, 1, 1)
+theme_override_font_sizes/font_size = 30
+text = "黄昏的十字路口"
+
+[node name="SceneSubtitle" type="Label" parent="SceneInfo" unique_id=1930222013]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.81, 0.92, 1)
+theme_override_font_sizes/font_size = 13
+text = "秋日 · 18:42　　｜　　公主线"
+
+[node name="SceneRule" type="ColorRect" parent="SceneInfo" unique_id=1930222014]
+custom_minimum_size = Vector2(245, 1)
+layout_mode = 2
+color = Color(0.7, 0.84, 1, 0.32)
+
+[node name="MemoryTeaser" type="Label" parent="SceneInfo" unique_id=1930222015]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.82, 0.88, 0.96, 1)
+theme_override_font_sizes/font_size = 15
+text = "她还记得：\n我们约好下次一起看月亮。"
+autowrap_mode = 2
+
+[node name="LastLine" type="Label" parent="SceneInfo" unique_id=1930222016]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.83, 0.89, 0.96, 1)
+theme_override_font_sizes/font_size = 14
+text = "「嗯？你刚才说什么？\n我在看那边的月亮啦。」\n\nARcueid　·　刚才"
+autowrap_mode = 2
+
+[node name="StoryHint" type="Label" parent="SceneInfo"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_colors/font_color = Color(0.84, 0.92, 1, 1)
+theme_override_font_sizes/font_size = 14
+autowrap_mode = 2
+
+[node name="StoryButton" type="Button" parent="SceneInfo"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+text = "开始剧情样机"
+
+[node name="TeacherEntryButton" type="Button" parent="SceneInfo"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+text = "教教我吧，爱尔奎特老师　→"
+
+[node name="StoryChoiceA" type="Button" parent="SceneInfo"]
+unique_name_in_owner = true
+visible = false
+custom_minimum_size = Vector2(0, 36)
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+
+[node name="StoryChoiceB" type="Button" parent="SceneInfo"]
+unique_name_in_owner = true
+visible = false
+custom_minimum_size = Vector2(0, 36)
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+
+[node name="ToolRail" type="VBoxContainer" parent="." unique_id=1930222020]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 1.0
+anchor_top = 0.38
+anchor_right = 1.0
+anchor_bottom = 0.68
+offset_left = -162.0
+offset_right = -82.0
+theme_override_constants/separation = 10
+
+[node name="MemoryButton" type="Button" parent="ToolRail" unique_id=1180225125]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(80, 60)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.89, 0.94, 1, 1)
+theme_override_font_sizes/font_size = 13
+text = "01\n记忆"
+
+[node name="SaveButton" type="Button" parent="ToolRail" unique_id=1930222021]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(80, 60)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.89, 0.94, 1, 1)
+theme_override_font_sizes/font_size = 13
+text = "02\n存档"
+
+[node name="SettingsButton" type="Button" parent="ToolRail" unique_id=1930222022]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(80, 60)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.89, 0.94, 1, 1)
+theme_override_font_sizes/font_size = 13
+text = "03\n设置"
+
+[node name="ReturnTitleButton" type="Button" parent="ToolRail"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(80, 48)
+layout_mode = 2
+text = "返回标题"
+
+[node name="RecentPanel" type="PanelContainer" parent="." unique_id=452271866]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 0
+anchor_left = 0.052
+anchor_top = 0.59
+anchor_right = 0.48
+anchor_bottom = 0.855
+theme_override_styles/panel = SubResource("StyleBoxFlat_dialogue")
+
+[node name="Rows" type="VBoxContainer" parent="RecentPanel" unique_id=442425280]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="RecentTitle" type="Label" parent="RecentPanel/Rows" unique_id=1930222089]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.63, 0.88, 1, 1)
+theme_override_font_sizes/font_size = 12
+text = "最近对话　/　RECENT CONVERSATION"
+
+[node name="RecentScroll" type="ScrollContainer" parent="RecentPanel/Rows" unique_id=1930222087]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="RecentList" type="VBoxContainer" parent="RecentPanel/Rows/RecentScroll" unique_id=1930222088]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 6
+
+[node name="SubtitleLayer" type="VBoxContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchor_left = 0.2
+anchor_top = 0.74
+anchor_right = 0.8
+anchor_bottom = 0.87
+mouse_filter = 2
+theme_override_constants/separation = 5
+
+[node name="UserSubtitle" type="Label" parent="SubtitleLayer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.74, 0.91, 1, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.025, 0.055, 0.95)
+theme_override_constants/outline_size = 8
+theme_override_font_sizes/font_size = 17
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="SpeakerSubtitle" type="Label" parent="SubtitleLayer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.78, 0.84, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.025, 0.055, 0.95)
+theme_override_constants/outline_size = 7
+theme_override_font_sizes/font_size = 15
+horizontal_alignment = 1
+
+[node name="ReplyText" type="RichTextLabel" parent="SubtitleLayer" unique_id=1771295103]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/default_color = Color(0.98, 0.98, 1, 1)
+theme_override_colors/font_outline_color = Color(0.015, 0.025, 0.055, 0.95)
+theme_override_constants/outline_size = 9
+theme_override_font_sizes/normal_font_size = 24
+bbcode_enabled = false
+fit_content = true
+scroll_active = false
+
+[node name="ChatDockButton" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchor_left = 0.052
+anchor_top = 0.905
+anchor_right = 0.052
+anchor_bottom = 0.965
+offset_right = 188.0
+theme_override_font_sizes/font_size = 15
+text = "和爱尔奎特说话　↗"
+
+[node name="DialogueLayer" type="HBoxContainer" parent="."]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchor_left = 0.052
+anchor_top = 0.905
+anchor_right = 0.948
+anchor_bottom = 0.965
+theme_override_constants/separation = 12
+
+[node name="SpeakerRow" type="HBoxContainer" parent="DialogueLayer" unique_id=442425281]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="NameLabel" type="Label" parent="DialogueLayer/SpeakerRow" unique_id=1771295101]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.78, 0.84, 1)
+theme_override_font_sizes/font_size = 17
+text = "对话对象"
+
+[node name="SpeakerOption" type="OptionButton" parent="DialogueLayer/SpeakerRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(122, 44)
+layout_mode = 2
+theme_override_font_sizes/font_size = 15
+
+[node name="VoiceBadge" type="Label" parent="DialogueLayer/SpeakerRow" unique_id=1771295102]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.66, 0.79, 0.93, 1)
+theme_override_font_sizes/font_size = 11
+text = "VOICE　●　JAPANESE"
+
+[node name="Composer" type="HBoxContainer" parent="DialogueLayer" unique_id=1771295104]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 12
+
+[node name="InputBox" type="LineEdit" parent="DialogueLayer/Composer" unique_id=397278452]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 52)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.94, 0.96, 1, 1)
+theme_override_colors/font_placeholder_color = Color(0.52, 0.62, 0.76, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_field")
+theme_override_styles/focus = SubResource("StyleBoxFlat_field")
+theme_override_font_sizes/font_size = 16
+placeholder_text = "和爱尔奎特说点什么……"
+
+[node name="SendButton" type="Button" parent="DialogueLayer/Composer" unique_id=2099261236]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(132, 52)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.91, 0.97, 1, 1)
+theme_override_font_sizes/font_size = 15
+text = "发送　↗"
+
+[node name="ChatLogButton" type="Button" parent="DialogueLayer" unique_id=1930222086]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(116, 52)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.86, 0.93, 1, 1)
+theme_override_font_sizes/font_size = 12
+text = "记录　↗"
+
+[node name="OverlayLayer" type="CanvasLayer" parent="." unique_id=1749972795]
+
+[node name="OverlayDim" type="ColorRect" parent="OverlayLayer" unique_id=1749972796]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+color = Color(0.005, 0.012, 0.035, 0.69)
+
+[node name="MemoryPanel" type="PanelContainer" parent="OverlayLayer" unique_id=710412003]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 8
+anchor_left = 0.2
+anchor_top = 0.13
+anchor_right = 0.8
+anchor_bottom = 0.86
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+
+[node name="Rows" type="VBoxContainer" parent="OverlayLayer/MemoryPanel" unique_id=1618978114]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="Top" type="HBoxContainer" parent="OverlayLayer/MemoryPanel/Rows" unique_id=423336388]
+layout_mode = 2
+
+[node name="Headings" type="VBoxContainer" parent="OverlayLayer/MemoryPanel/Rows/Top" unique_id=423336389]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+
+[node name="Title" type="Label" parent="OverlayLayer/MemoryPanel/Rows/Top/Headings" unique_id=183504293]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.93, 0.96, 1, 1)
+theme_override_font_sizes/font_size = 25
+text = "留下的记忆"
+
+[node name="Kicker" type="Label" parent="OverlayLayer/MemoryPanel/Rows/Top/Headings" unique_id=183504294]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.63, 0.88, 1, 1)
+theme_override_font_sizes/font_size = 11
+text = "MEMORIES　/　只属于你们的片段"
+
+[node name="CloseMemoryButton" type="Button" parent="OverlayLayer/MemoryPanel/Rows/Top" unique_id=1930222030]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(42, 38)
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "×"
+
+[node name="MemoryNote" type="Label" parent="OverlayLayer/MemoryPanel/Rows" unique_id=1930222031]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7, 0.8, 0.92, 1)
+theme_override_font_sizes/font_size = 13
+text = "重要的片段会留在这里。固定的记忆会帮助爱尔奎特记住你们的故事。"
+autowrap_mode = 2
+
+[node name="MemoryScroll" type="ScrollContainer" parent="OverlayLayer/MemoryPanel/Rows" unique_id=2108118144]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="MemoryList" type="VBoxContainer" parent="OverlayLayer/MemoryPanel/Rows/MemoryScroll" unique_id=1321179645]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 10
+
+[node name="MemoryFooter" type="HBoxContainer" parent="OverlayLayer/MemoryPanel/Rows" unique_id=1930222032]
+layout_mode = 2
+
+[node name="MemoryFooterNote" type="Label" parent="OverlayLayer/MemoryPanel/Rows/MemoryFooter" unique_id=1930222033]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.61, 0.73, 0.87, 1)
+theme_override_font_sizes/font_size = 11
+text = "这些内容保存在本地存档中。"
+
+[node name="MemoryDoneButton" type="Button" parent="OverlayLayer/MemoryPanel/Rows/MemoryFooter" unique_id=1930222034]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(112, 38)
+layout_mode = 2
+text = "完成"
+
+[node name="SavePanel" type="PanelContainer" parent="OverlayLayer" unique_id=1930222040]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 8
+anchor_left = 0.2
+anchor_top = 0.12
+anchor_right = 0.8
+anchor_bottom = 0.87
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+
+[node name="Rows" type="VBoxContainer" parent="OverlayLayer/SavePanel" unique_id=1930222041]
+layout_mode = 2
+theme_override_constants/separation = 13
+
+[node name="Top" type="HBoxContainer" parent="OverlayLayer/SavePanel/Rows" unique_id=1930222042]
+layout_mode = 2
+
+[node name="Headings" type="VBoxContainer" parent="OverlayLayer/SavePanel/Rows/Top" unique_id=1930222043]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+
+[node name="Title" type="Label" parent="OverlayLayer/SavePanel/Rows/Top/Headings" unique_id=1930222044]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.93, 0.96, 1, 1)
+theme_override_font_sizes/font_size = 25
+text = "记忆存档"
+
+[node name="Kicker" type="Label" parent="OverlayLayer/SavePanel/Rows/Top/Headings" unique_id=1930222045]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.63, 0.88, 1, 1)
+theme_override_font_sizes/font_size = 11
+text = "SAVE DATA　/　选择要继续的故事"
+
+[node name="CloseSaveButton" type="Button" parent="OverlayLayer/SavePanel/Rows/Top" unique_id=1930222046]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(42, 38)
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "×"
+
+[node name="SaveNote" type="Label" parent="OverlayLayer/SavePanel/Rows" unique_id=1930222047]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7, 0.8, 0.92, 1)
+theme_override_font_sizes/font_size = 13
+text = "每段故事各自保存对话与记忆。选择一段继续，或开始新的相遇。"
+
+[node name="SaveScroll" type="ScrollContainer" parent="OverlayLayer/SavePanel/Rows" unique_id=1930222048]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="SaveList" type="VBoxContainer" parent="OverlayLayer/SavePanel/Rows/SaveScroll" unique_id=1930222049]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 9
+
+[node name="NewSaveRow" type="HBoxContainer" parent="OverlayLayer/SavePanel/Rows" unique_id=1930222050]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="SaveNameInput" type="LineEdit" parent="OverlayLayer/SavePanel/Rows/NewSaveRow" unique_id=1930222051]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 42)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/normal = SubResource("StyleBoxFlat_field")
+theme_override_styles/focus = SubResource("StyleBoxFlat_field")
+placeholder_text = "新存档名称（可留空）"
+
+[node name="NewSaveButton" type="Button" parent="OverlayLayer/SavePanel/Rows/NewSaveRow" unique_id=1930222052]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(170, 42)
+layout_mode = 2
+text = "＋ 新建存档"
+
+[node name="SaveFooter" type="HBoxContainer" parent="OverlayLayer/SavePanel/Rows" unique_id=1930222053]
+layout_mode = 2
+
+[node name="SaveStatus" type="Label" parent="OverlayLayer/SavePanel/Rows/SaveFooter" unique_id=1930222054]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.61, 0.73, 0.87, 1)
+theme_override_font_sizes/font_size = 11
+text = ""
+
+[node name="SaveDoneButton" type="Button" parent="OverlayLayer/SavePanel/Rows/SaveFooter" unique_id=1930222055]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(112, 38)
+layout_mode = 2
+text = "返回舞台"
+
+[node name="SettingsPanel" type="PanelContainer" parent="OverlayLayer" unique_id=1930222060]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 8
+anchor_left = 0.22
+anchor_top = 0.15
+anchor_right = 0.78
+anchor_bottom = 0.84
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+
+[node name="Rows" type="VBoxContainer" parent="OverlayLayer/SettingsPanel" unique_id=1930222061]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="Top" type="HBoxContainer" parent="OverlayLayer/SettingsPanel/Rows" unique_id=1930222062]
+layout_mode = 2
+
+[node name="Headings" type="VBoxContainer" parent="OverlayLayer/SettingsPanel/Rows/Top" unique_id=1930222063]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+
+[node name="Title" type="Label" parent="OverlayLayer/SettingsPanel/Rows/Top/Headings" unique_id=1930222064]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.93, 0.96, 1, 1)
+theme_override_font_sizes/font_size = 25
+text = "舞台设置"
+
+[node name="Kicker" type="Label" parent="OverlayLayer/SettingsPanel/Rows/Top/Headings" unique_id=1930222065]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.63, 0.88, 1, 1)
+theme_override_font_sizes/font_size = 11
+text = "PREFERENCES　/　依照你的习惯调整"
+
+[node name="CloseSettingsButton" type="Button" parent="OverlayLayer/SettingsPanel/Rows/Top" unique_id=1930222066]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(42, 38)
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "×"
+
+[node name="SettingsDescription" type="Label" parent="OverlayLayer/SettingsPanel/Rows" unique_id=1930222067]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7, 0.8, 0.92, 1)
+theme_override_font_sizes/font_size = 13
+text = "为这段故事设定你们的相遇方式。连接地址使用本机服务。"
+
+[node name="SettingsGrid" type="GridContainer" parent="OverlayLayer/SettingsPanel/Rows" unique_id=1930222068]
+layout_mode = 2
+size_flags_vertical = 3
+columns = 2
+theme_override_constants/h_separation = 20
+theme_override_constants/v_separation = 14
+
+[node name="IdentitySetting" type="VBoxContainer" parent="OverlayLayer/SettingsPanel/Rows/SettingsGrid" unique_id=1930222069]
+layout_mode = 2
+theme_override_constants/separation = 7
+
+[node name="IdentityLabel" type="Label" parent="OverlayLayer/SettingsPanel/Rows/SettingsGrid/IdentitySetting" unique_id=1930222070]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.68, 0.79, 0.92, 1)
+theme_override_font_sizes/font_size = 13
+text = "对话身份"
+
+[node name="IdentityOption" type="OptionButton" parent="OverlayLayer/SettingsPanel/Rows/SettingsGrid/IdentitySetting" unique_id=1930222071]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 42)
+layout_mode = 2
+
+[node name="UserNameSetting" type="VBoxContainer" parent="OverlayLayer/SettingsPanel/Rows/SettingsGrid" unique_id=1930222072]
+layout_mode = 2
+theme_override_constants/separation = 7
+
+[node name="UserNameLabel" type="Label" parent="OverlayLayer/SettingsPanel/Rows/SettingsGrid/UserNameSetting" unique_id=1930222073]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.68, 0.79, 0.92, 1)
+theme_override_font_sizes/font_size = 13
+text = "你的称呼（可选）"
+
+[node name="UserNameInput" type="LineEdit" parent="OverlayLayer/SettingsPanel/Rows/SettingsGrid/UserNameSetting" unique_id=1930222074]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 42)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_field")
+theme_override_styles/focus = SubResource("StyleBoxFlat_field")
+placeholder_text = "让她怎么称呼你？"
+
+[node name="CoreAddressSetting" type="VBoxContainer" parent="OverlayLayer/SettingsPanel/Rows/SettingsGrid" unique_id=1930222075]
+layout_mode = 2
+theme_override_constants/separation = 7
+
+[node name="CoreAddressLabel" type="Label" parent="OverlayLayer/SettingsPanel/Rows/SettingsGrid/CoreAddressSetting" unique_id=1930222076]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.68, 0.79, 0.92, 1)
+theme_override_font_sizes/font_size = 13
+text = "对话服务 · 本机"
+
+[node name="CoreAddressValue" type="Label" parent="OverlayLayer/SettingsPanel/Rows/SettingsGrid/CoreAddressSetting" unique_id=1930222077]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.79, 0.88, 1, 1)
+theme_override_font_sizes/font_size = 13
+text = "http://127.0.0.1:8765"
+
+[node name="VoiceAddressSetting" type="VBoxContainer" parent="OverlayLayer/SettingsPanel/Rows/SettingsGrid" unique_id=1930222078]
+layout_mode = 2
+theme_override_constants/separation = 7
+
+[node name="VoiceAddressLabel" type="Label" parent="OverlayLayer/SettingsPanel/Rows/SettingsGrid/VoiceAddressSetting" unique_id=1930222079]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.68, 0.79, 0.92, 1)
+theme_override_font_sizes/font_size = 13
+text = "语音服务 · 本机"
+
+[node name="VoiceAddressValue" type="Label" parent="OverlayLayer/SettingsPanel/Rows/SettingsGrid/VoiceAddressSetting" unique_id=1930222080]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.79, 0.88, 1, 1)
+theme_override_font_sizes/font_size = 13
+text = "由 Core 管理"
+
+[node name="VoiceEnabled" type="CheckButton" parent="OverlayLayer/SettingsPanel/Rows" unique_id=1930222081]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.86, 0.92, 0.98, 1)
+text = "启用日语语音播放"
+
+[node name="SettingsFooter" type="HBoxContainer" parent="OverlayLayer/SettingsPanel/Rows" unique_id=1930222082]
+layout_mode = 2
+
+[node name="SettingsStatus" type="Label" parent="OverlayLayer/SettingsPanel/Rows/SettingsFooter" unique_id=1930222083]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.61, 0.73, 0.87, 1)
+theme_override_font_sizes/font_size = 11
+text = ""
+
+[node name="SaveSettingsButton" type="Button" parent="OverlayLayer/SettingsPanel/Rows/SettingsFooter" unique_id=1930222084]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(132, 40)
+layout_mode = 2
+text = "保存设置"
+
+[node name="CloseSettingsDoneButton" type="Button" parent="OverlayLayer/SettingsPanel/Rows/SettingsFooter" unique_id=1930222085]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(96, 40)
+layout_mode = 2
+text = "完成"
+
+[node name="ChatLogPanel" type="PanelContainer" parent="OverlayLayer" unique_id=1930222090]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 15
+anchor_left = 0.12
+anchor_top = 0.08
+anchor_right = 0.88
+anchor_bottom = 0.92
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+
+[node name="Rows" type="VBoxContainer" parent="OverlayLayer/ChatLogPanel" unique_id=1930222091]
+layout_mode = 2
+theme_override_constants/separation = 13
+
+[node name="Top" type="HBoxContainer" parent="OverlayLayer/ChatLogPanel/Rows" unique_id=1930222092]
+layout_mode = 2
+
+[node name="Headings" type="VBoxContainer" parent="OverlayLayer/ChatLogPanel/Rows/Top" unique_id=1930222093]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+
+[node name="Title" type="Label" parent="OverlayLayer/ChatLogPanel/Rows/Top/Headings" unique_id=1930222094]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.93, 0.96, 1, 1)
+theme_override_font_sizes/font_size = 25
+text = "完整对话记录"
+
+[node name="Kicker" type="Label" parent="OverlayLayer/ChatLogPanel/Rows/Top/Headings" unique_id=1930222095]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.63, 0.88, 1, 1)
+theme_override_font_sizes/font_size = 11
+text = "CHAT LOG　/　当前故事的全部对话"
+
+[node name="CloseChatLogButton" type="Button" parent="OverlayLayer/ChatLogPanel/Rows/Top" unique_id=1930222096]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(42, 38)
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "×"
+
+[node name="ChatLogNote" type="Label" parent="OverlayLayer/ChatLogPanel/Rows" unique_id=1930222097]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7, 0.8, 0.92, 1)
+theme_override_font_sizes/font_size = 13
+text = "按时间顺序记录你和爱尔奎特的每一次对话。"
+
+[node name="ChatLogScroll" type="ScrollContainer" parent="OverlayLayer/ChatLogPanel/Rows" unique_id=1930222098]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="ChatLogList" type="VBoxContainer" parent="OverlayLayer/ChatLogPanel/Rows/ChatLogScroll" unique_id=1930222099]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 9
+
+[node name="ChatLogFooter" type="HBoxContainer" parent="OverlayLayer/ChatLogPanel/Rows" unique_id=1930222100]
+layout_mode = 2
+
+[node name="ChatLogStatus" type="Label" parent="OverlayLayer/ChatLogPanel/Rows/ChatLogFooter" unique_id=1930222101]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.61, 0.73, 0.87, 1)
+theme_override_font_sizes/font_size = 11
+text = ""
+
+[node name="CloseChatLogDoneButton" type="Button" parent="OverlayLayer/ChatLogPanel/Rows/ChatLogFooter" unique_id=1930222102]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(112, 38)
+layout_mode = 2
+text = "返回舞台"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1971479760]
+unique_name_in_owner = true

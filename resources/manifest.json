@@ -1,0 +1,1806 @@
+{
+  "schema_version": 1,
+  "download_url": null,
+  "note": "Paths and checksums only. External content is not included or automatically downloaded.",
+  "files": [
+    {
+      "path": "game/ArcueidStage/assets/arcueid-placeholder.png",
+      "bytes": 60745,
+      "sha256": "474e7802dd81c6a12fcd701ab7850c88a06dc4511a9a2525cd4bdf9c0eaed24a",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/backgrounds/classroom-board.png",
+      "bytes": 3099767,
+      "sha256": "5f6fd663137cd73c56997c0ff195d73f4aac019df0a26c38c3e360592cf6901d",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/backgrounds/classroom-dusk.png",
+      "bytes": 1879350,
+      "sha256": "6da9a1d1fc245e946852230d0ecbd17984733f29ef0b85685630f72737450afc",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/backgrounds/evening-crossroads.png",
+      "bytes": 8075941,
+      "sha256": "93d91a46f19c2acc2670969eee2d866a67d5cb2bc3c9ed8ceec6e9ec34c4f616",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/backgrounds/park_sequence/img0521.png",
+      "bytes": 3892493,
+      "sha256": "8842b4ea2557a47105573f4b628a3bff45969461075dfd9837854fec6999b7af",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/backgrounds/park_sequence/img0525.png",
+      "bytes": 3278850,
+      "sha256": "b3853e42872c8da1c496cba949f67c8d3cc37faa7a7234762f92a4edcc37679a",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/backgrounds/park_sequence/img0535.png",
+      "bytes": 5244833,
+      "sha256": "ac3e50c01395e50a1be47b7725b2f45dcba1c9631e689fb1d666633391f9cd2a",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/backgrounds/park_sequence/img0539.png",
+      "bytes": 4669055,
+      "sha256": "460e19b6aa23053869108f77b2b082944c350e0d1bb6156f71ac213502b5071f",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/backgrounds/park_sequence/img0594.png",
+      "bytes": 4327998,
+      "sha256": "9d146829953832ee4210b732106881640f31ec59902cba35597c79ee444f238d",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/backgrounds/park_sequence/IMG3780.png",
+      "bytes": 829621,
+      "sha256": "09db4143a562bb71eadfd3a6d461ae9607b862fd3af9650234c8f6f4f1bb5367",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/annoyed.png",
+      "bytes": 2083672,
+      "sha256": "a1c22d4b0d1ace75d0e1ab477d2528152a34809cc3efdfbed763cdf323c06fa1",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/curious-blink.png",
+      "bytes": 2091424,
+      "sha256": "2b03b8c2d5baf4ea2ff0a5b9b58048e80c7d5c5a8a83e213d1f44ad4b97ef886",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/curious.png",
+      "bytes": 2093363,
+      "sha256": "545919eb6e7a68319950a0389770138a03f9e169d0b4083a62c0415e3fcda396",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/neutral.png",
+      "bytes": 2327627,
+      "sha256": "85068dfe916fe4e267149e382152872a40c4c56093344d88f7279f8785204f7e",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_02_00_n00.png",
+      "bytes": 501491,
+      "sha256": "f515a8bb52a8724e457856bb6572fd42a8f0f405397427de6f390a02255f8e75",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_02_00_n04.png",
+      "bytes": 500775,
+      "sha256": "52d20deba649ce7cdc63113f16d478ecebc95890e6d4b842aa31e4e32e9a30fe",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_02_03_n00.png",
+      "bytes": 477044,
+      "sha256": "a7a4e27c6ad7a58644b19f2d7fd698c8dd9364cb4b36a09e3cfec6cb8d987d8f",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_02_03_n01.png",
+      "bytes": 476754,
+      "sha256": "43f718e66d1ff5daa4d1c123fc04c27e868105cfed59a2a182177287abfaea5f",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_02_03_n03.png",
+      "bytes": 477246,
+      "sha256": "1f7940001ba9b26107a252165eff66a732dd3ca465df456f3b60e0f92a47a61a",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_02_03_n04.png",
+      "bytes": 477846,
+      "sha256": "eb085c2cdd20dbdf427c711407035bdf982aaa404fd81798919cf5379b2c8650",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_02_04_n02.png",
+      "bytes": 497140,
+      "sha256": "702aa213c07eddb56445ed58f0e69c48c6ecd034c8bff2fcc2e7d1ddeb058f17",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_02_04_n03.png",
+      "bytes": 498483,
+      "sha256": "a7829486ad9c502a945e9c95fd018add5172ea452417120a5259930143363a91",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_02_05_n00.png",
+      "bytes": 501648,
+      "sha256": "5c448585f2458a907fdc62c40178c7a824ee8c09d6013c2519af78ed7f8beb10",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_02_05_n02.png",
+      "bytes": 502093,
+      "sha256": "287f609f6c0d48191984a39241464486e4919f22cd68f16796dc8679532f3ac8",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_02_05_n03.png",
+      "bytes": 503119,
+      "sha256": "20437a0256dab4b9b1a029f723e61bd5ab3952665469b70629a3e14414ce7ff2",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_02_06_n00.png",
+      "bytes": 503200,
+      "sha256": "9343bb4fd72ea0862091b228b41cf02bacb9ce5de3e15e890c9e45ba77e97a11",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_02_06_n01.png",
+      "bytes": 503452,
+      "sha256": "53c38236f0ecc659499a1a7ad0ec14ed686d5e474c5e3a2bf08562b7f9a0ec7d",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_02_33_n01.png",
+      "bytes": 505071,
+      "sha256": "04a44a1870d487fb41abbc73cd7bc44e7e276027f92419f6d004336caf30c08a",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_02_34_n01.png",
+      "bytes": 523001,
+      "sha256": "7d738551a23b80c007e4bd9340383ee4b4e216dbf0af843eb9f86c70e479aafe",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_02_34_n02.png",
+      "bytes": 523856,
+      "sha256": "554779ca5740756cbe7f8231f8cf98c34cab98ab58bdc6b08ab7afdb28bb5abf",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_05_01_n00.png",
+      "bytes": 460763,
+      "sha256": "6154632c009f89d5c1d4bc5049555fc435e65085d335c1e010cdbb61a21d1e14",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_05_01_n03.png",
+      "bytes": 461488,
+      "sha256": "b81aaee0d99ae7bdb6f72261f459e70a49fd1a4118a5d7ac0755396a03b66579",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_05_01_n04.png",
+      "bytes": 460151,
+      "sha256": "6e5a1f14a48a4a31960296d2fcb2c328431b518fb04ba4704e76f96c29879f81",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_05_01_n05.png",
+      "bytes": 460139,
+      "sha256": "a0e5a92d0a285369904dc96678886155a68b80e168073eafe1ae75d87b77a69d",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_05_01_n06.png",
+      "bytes": 459416,
+      "sha256": "878eebd6a1bdfa0f0f7b702c6c44b44a1832f80ca7b22ecf6a565c64f47acd7e",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_05_01_n08.png",
+      "bytes": 462410,
+      "sha256": "f43216eaec2a6930aff66a76c5a9495932ae467b7b0e9bb05599127b5ea339df",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_05_01_n09.png",
+      "bytes": 460623,
+      "sha256": "5f9629e0b18cf5ba4ee47d0efe71c7a87dc566d048045a62fe73267b71644f12",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_05_01_n10.png",
+      "bytes": 462932,
+      "sha256": "648e7099dee340a25e0c48e0942b0ad152fcc02edeb2a7e5136912be7d178270",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_05_01_n11.png",
+      "bytes": 461506,
+      "sha256": "8408b0820ce2d0a01610717a552377d72608473e67fb76ffc8eb9c9d13673521",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_05_05_n00.png",
+      "bytes": 460393,
+      "sha256": "d40abf5638913b3b22342d6d974f20e3b040cacc75b67b6f873075fbd3b06d08",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_05_05_n01.png",
+      "bytes": 458242,
+      "sha256": "25957365ff6ad5c031445dbb2900f3cca6e488ad1a40dcae5315f29b895d0e29",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_09_02_n02.png",
+      "bytes": 461355,
+      "sha256": "a0445d89c4d14e1bb1cb0af8fc0fe2f8307cf5e5f4852b31bf13e158baa8daac",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_09_02_n03.png",
+      "bytes": 463117,
+      "sha256": "f8ad6c69f288ffb31068bfa8017f9a45330bfd4e235cee71e4db4ad6e5355265",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_09_02_n04.png",
+      "bytes": 463261,
+      "sha256": "6a14ddb8e5eefd833c75630063f31f9b51805bea3a10f99a110437ad5d505cbd",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_09_02_n05.png",
+      "bytes": 460636,
+      "sha256": "ea4985fc0d91b1ccc4e451e39be0c5894587705f5660155ba649057efdd85d46",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_09_02_n08.png",
+      "bytes": 462206,
+      "sha256": "8f95ad460a4a5ef770eb56680f0065d1a2b36d476a322643f4a41bbd25eccb0e",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_09_02_n09.png",
+      "bytes": 461008,
+      "sha256": "b79e8e59bc88b24e471c2079022be9c258be77956ff753479958ba38a738d6db",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_09_02_n10.png",
+      "bytes": 460596,
+      "sha256": "15febfcc7af2eac07dc84254c9feaed064dedbd4b4b35c32edf1ef178ab98188",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_16_00_n00.png",
+      "bytes": 422981,
+      "sha256": "0669f688ca72216d1b014fdd76212312bbc7063e897cf43f0f8a4afa6fafab81",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_16_00_n01.png",
+      "bytes": 423811,
+      "sha256": "c0fb9f30590837cfddd4120c55fe6dd4d3397882cc0bc512eee64a90d3c325e2",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_16_00_n02.png",
+      "bytes": 421454,
+      "sha256": "a3b71f96fa6318c7ee9517663877828701c02bc47972ce7b30fb41b94dacc939",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_16_00_n03.png",
+      "bytes": 424321,
+      "sha256": "7a233fa27e16e9a6a80fd4daf957d1e4d4d3578f153c5ac0fab9c97ee7cc4cc9",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_16_00_n04.png",
+      "bytes": 423336,
+      "sha256": "ac69b20e5157a03702ee51a6856efc7f66d153ce24fce3000fd1f1d5bd702b65",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/performance/aru_a_16_00_n05.png",
+      "bytes": 424870,
+      "sha256": "7a44645a9f2d01e7ccfc0141bcb4b1aae60194bb1e6edbb6ec208489aaf4e671",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/serious.png",
+      "bytes": 2334513,
+      "sha256": "b4ce7fa344302f6d329bba00a9249c38b39df4a0ddcdd9fe7323f4cf8ba8a4a7",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/smile-blink.png",
+      "bytes": 2105488,
+      "sha256": "fa09c425aeb44dad77f7a38720e6c34919e10fb2b74524bf79ee9e4270405d68",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/smile.png",
+      "bytes": 2096714,
+      "sha256": "871442b620abf0b75afbffdad06527cc1358807cad162e884115d4122718900b",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/arcueid/surprised.png",
+      "bytes": 2084577,
+      "sha256": "fe37486c385451621e70bd38ba0ee6b6f1a82d20ca607c139d14c4bd0ce6e6f5",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/neutral.png",
+      "bytes": 2261667,
+      "sha256": "34b02d1595e892864bd581feab6d79db506fa8074588a141922fb237d3dc5c56",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/performance/sie_a_09_00_n00.png",
+      "bytes": 476755,
+      "sha256": "b40e3ac654a8dda18d86baca038dc02cb3e559c8387d364eab3c989f969ed8c1",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/performance/sie_a_09_01_n00.png",
+      "bytes": 439449,
+      "sha256": "8c22e00a3e82ec65583a99f597cefffd1dd10ae672bd5291e0cd01a8ef6c1f9d",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/performance/sie_a_09_01_n01.png",
+      "bytes": 440013,
+      "sha256": "a44db05ae0925470f59e10f93dc6765337a229a9e435cf2c4b88fe5e5878ccbf",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/performance/sie_a_09_01_n02.png",
+      "bytes": 439920,
+      "sha256": "3b637ec539eac1c0ca6f8c8597f6858547f12bbc1a925fba70abbf4fd211f872",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/performance/sie_a_09_01_n04.png",
+      "bytes": 440036,
+      "sha256": "0309eb5c7dd40fa4111bb0e15fe3e4d4bd63dadb701af5e8e6579da7363ecd20",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/performance/sie_a_09_02_n00.png",
+      "bytes": 439754,
+      "sha256": "f994896471083532171a9f7bc762161e9efcbbffc99633ac80fef52bb3bda9c5",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/performance/sie_a_09_02_n01.png",
+      "bytes": 443235,
+      "sha256": "c0b4e1f7e320c798c44feb17b1abc4b02caddc4cfcee63ea02a730e52a7b7acd",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/performance/sie_a_09_03_n00.png",
+      "bytes": 435647,
+      "sha256": "028384914fdab8791946e1a79ae0d2b615485d06bac97824720b2fc7b66e5769",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/performance/sie_a_09_03_n01.png",
+      "bytes": 435358,
+      "sha256": "9a1467bb3d71bdf16fc8323d8b5e989fb9f4b9dd385522d52349a4245f2258d0",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/performance/sie_a_09_03_n03.png",
+      "bytes": 434083,
+      "sha256": "10ed6a98b7a0c56af0d2c8e27a3d29e04e6f1804329c3bdb3b0af50aa11d39cb",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/performance/sie_a_09_03_n04.png",
+      "bytes": 434765,
+      "sha256": "ab765f24caad92a4587b4a6c8ea91b6b9ca2fe5f6f856ac02d9f4d22ceb3f6bd",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/performance/sie_a_09_04_n00.png",
+      "bytes": 521237,
+      "sha256": "c2e679fb7fab5540119a15f6001b1f1511e7b0c4957fa08317465ff111587a37",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/performance/sie_a_09_04_n01.png",
+      "bytes": 520865,
+      "sha256": "7d2040f0b647ed3b695b8bdec6cf9f4edc1f11ff1037c1a977fc0f99abdcb1a1",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/performance/sie_a_09_04_n02.png",
+      "bytes": 521182,
+      "sha256": "19a2d98854c067507ade8330b5bc13c670575087741fa822bc916f1b6fb7d52f",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/performance/sie_a_09_04_n03.png",
+      "bytes": 521562,
+      "sha256": "b62e9660caea82d0094f64c3bf18d7d539d6047ba669325b03cbec248dd36a06",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/performance/sie_a_09_04_n05.png",
+      "bytes": 519997,
+      "sha256": "6a76114aabb155d1d518af6b8677011059c1ce8626b22c7e4dcaec2e0e4b9f0c",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/serious.png",
+      "bytes": 2162459,
+      "sha256": "2b6ee6909c7b6895f662eb19e3ea57495cf76b458dbc4eb27d5b1720e34e0856",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/ciel/surprised.png",
+      "bytes": 2151015,
+      "sha256": "ec09b2e4aa72db3a9a1e6505dc2800ca17d2430a8b1bf82924d0af9e6f5b44a4",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/annoyed.png",
+      "bytes": 351760,
+      "sha256": "07dea81bf16fdb97931abbf3839b1739e575dd892da8b47483e59cf304e04b4a",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/blink.png",
+      "bytes": 393065,
+      "sha256": "4691951c258f848f4fae0bdfa0a93bdf18c41f89318b562c28f953fa151dc7bd",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/curious.png",
+      "bytes": 319605,
+      "sha256": "da4089763ca833d41fc4536e1404702d39ae33081ee7daefdcbd7436ae271fb2",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/excited.png",
+      "bytes": 525561,
+      "sha256": "5e2325f6e14e1506f2ed3db4177197fde71c59da6f5131564424831683d12ca8",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/neutral.png",
+      "bytes": 377790,
+      "sha256": "23d07a17144a6f14a762e5101f7729067222953921dc461eee029d0747cc0fdc",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_80_00_n00.png",
+      "bytes": 210938,
+      "sha256": "9ddeaab1e7ccef00d105d7c7c271a3cef5fb2c63c3fed74a726fe53dc1a31292",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_80_00_n02.png",
+      "bytes": 215700,
+      "sha256": "2affa4c56ac96064d824d7932c06575f08ef783b81f16e10eb1deb478338ba22",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_80_00_n05.png",
+      "bytes": 212418,
+      "sha256": "3fd46ee9bc03b1ca3c5d036cfd47a3238f3c04f97ac3fb1cf0252f3544ef056e",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_80_00_n07.png",
+      "bytes": 214042,
+      "sha256": "773d04287df1f3de0f047f720735d8974e57197b2b153de63a9c6b97f513fc5e",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_80_00_n08.png",
+      "bytes": 217557,
+      "sha256": "b2230b1a6f60556991003a126274d643ab3fdca04b0fb8ee0c4f4d2f554ee5fc",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_80_01_n00.png",
+      "bytes": 211752,
+      "sha256": "37ecf35ded650d0a8189388da7bc53f83a92d14245e679974b77628dd5cd5c1a",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_80_01_n03.png",
+      "bytes": 214094,
+      "sha256": "4e1fb1769ba8a3fc53860bad6d83380cc06c99be1fcfe2477f953692d6341e4a",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_80_01_n04.png",
+      "bytes": 213151,
+      "sha256": "e57f7d2c602ac27be87162980b0e64fac4714611c70c66338955c56b24903681",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_80_01_n06.png",
+      "bytes": 218264,
+      "sha256": "8cadebc74a24f6f099be1d825019721173dfd0c088e31d547ac143894632dbeb",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_80_02_n01.png",
+      "bytes": 207660,
+      "sha256": "e8e261473bd883bb64817e8d280f53acb793cbf694be29e18010fa760e7854f4",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_80_03_n01.png",
+      "bytes": 206948,
+      "sha256": "3f3e60e82ff7b7b1a51886374666d234b70d55cdbb8d297d81f7c7aa6e2131ff",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_80_03_n03.png",
+      "bytes": 208270,
+      "sha256": "e9720b5b97b6f0eb379488d627ceafc51d7cbbb50827ca052aab217ce6bf9642",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_80_03_n05.png",
+      "bytes": 205405,
+      "sha256": "a6e3af72f3131cc8ac4b889079182a379924853e21266698a782f90a05e86e65",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_80_03_n06.png",
+      "bytes": 205267,
+      "sha256": "6f86228b206dd237a65a91f3ec4304d63afc708b180e8f4a4f93f56e12082822",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_80_03_n07.png",
+      "bytes": 209042,
+      "sha256": "a4f803b9b1334ffaa39c3c0e6fcf1391e415a4204396f555f7efd74baec3258a",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_80_04_n01.png",
+      "bytes": 224991,
+      "sha256": "3c3aabc6e9fb44d2d99391e83ac3b4931dd2ca9ab38b6310bc2af01a3441614e",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_81_01_n01.png",
+      "bytes": 211291,
+      "sha256": "0e3d71c2e6820c05389fd8b425d241e802ccb31fd06bfef80c25d40809ef24ea",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_81_01_n02.png",
+      "bytes": 215779,
+      "sha256": "4c980e842f75027c3b25512d9dbc0826a2e497ebeac99b804c1944711a57d0d0",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_81_01_n04.png",
+      "bytes": 218136,
+      "sha256": "47192add633b257dbf70639a5eb5eb279746bcab75b3d03426a1acb687c3a961",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_81_01_n06.png",
+      "bytes": 213483,
+      "sha256": "4ffc2ba742eb782f79c8cc84757b9be8916215658c2bcc207d4652c260063fec",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_81_01_n07.png",
+      "bytes": 212531,
+      "sha256": "00968cc66607b5c258ce61d20dba86e7fc06ab79e770cabfc127b7f61fd51a2c",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_81_01_n09.png",
+      "bytes": 215780,
+      "sha256": "e3c6a552cbf92aaf9b880ee969cc07d097b2aefac3282af7ddc7e7070c377ec0",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_81_01_n10.png",
+      "bytes": 214106,
+      "sha256": "2e13e1c868cd716376b33c048291f9e6f7a51e4439bf3cfa621e6c158d77b843",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_81_01_n12.png",
+      "bytes": 220004,
+      "sha256": "0b87f5ef19126f7a2832e3b2e6f179dfca2440cb1bec780bc053729b06c71d46",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_81_01_n13.png",
+      "bytes": 220129,
+      "sha256": "d6b500a4a9cac039a1d3b4a0a18af14bca4930ab6ffa73d46a6c585aac7af9c7",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_81_02_n01.png",
+      "bytes": 206896,
+      "sha256": "dde408335294716794276c9ecff511eeabe9225f82643a8c5d8d5fa8d5590eee",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_81_02_n02.png",
+      "bytes": 207022,
+      "sha256": "8e8da54e8fb36f7c0f33c4c41a99a80409e1fa696dce32b55cdd9ec1c591f60c",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_81_02_n03.png",
+      "bytes": 213918,
+      "sha256": "55807268b09e9886333cbbaf42aac6a4e39f4734ba1f29138bddfa6ccfbc49ea",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_81_02_n05.png",
+      "bytes": 209368,
+      "sha256": "03853e038ffb9ea39b649ed25307084cbf7d1489dcac91f77b7e65d9b2969a47",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_81_03_n00.png",
+      "bytes": 204734,
+      "sha256": "198e182fe1b86130554ff8cb3089f61da83d8d4dd0e6d397a1cb2b2905e71609",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_81_03_n01.png",
+      "bytes": 206266,
+      "sha256": "c4ad6bede3a14b80a4634de29d6afcba19e12392fef1216556f5df2e759433f8",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_81_04_n00.png",
+      "bytes": 215819,
+      "sha256": "50a05876548bfd8cea8ba5cc1348ad6af353317f81e54f5d87cd4e7b2f88c08b",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_81_04_n01.png",
+      "bytes": 219446,
+      "sha256": "a0e9bd2c0264d216480a5b15579fd5471050b61dc3e59e3a618946385d70920c",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_82_01_n02.png",
+      "bytes": 210540,
+      "sha256": "5723fef41be9dc6e5e2a799f2c965fced6836c648d4d3bc35654566bd5756a3b",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_82_01_n04.png",
+      "bytes": 212779,
+      "sha256": "76ca2f3985c4e59297931dff61fe4fb1791fd1a49fa685d8efc4b0774f1d7f18",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_82_01_n08.png",
+      "bytes": 215206,
+      "sha256": "9e787910e3cc52acc33c603a392231a936c1454686d57bea594c9e8e5d802224",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_82_01_n10.png",
+      "bytes": 208693,
+      "sha256": "a04a4fa66848618028462c2efb4ad8b552c086bf2de8c2542726dbe597dc3829",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_82_01_n11.png",
+      "bytes": 212350,
+      "sha256": "b0836546acec7518eb63fd01fd428f9c39e93d26eabc241ae2adfa2f7ad4f0b6",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_82_01_n12.png",
+      "bytes": 215159,
+      "sha256": "cfc2ce938748143858c470f7770b40bbab624747cf37eb372ff52313a16c4f1e",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_82_01_n13.png",
+      "bytes": 214209,
+      "sha256": "f34944a365a3d1c30421b5763cf04e7076aaeb562ca0faa19a9ded552e4a7175",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_82_02_n00.png",
+      "bytes": 202114,
+      "sha256": "e49e9a35d021c5a1210964f2e5f10698ea3983279e21165cfb9e7ddda9dc5b25",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_82_02_n02.png",
+      "bytes": 206677,
+      "sha256": "a1dab713a40559d4dc58387137cff0e4b170a6d301a91bb317ce223b1b595127",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_82_02_n04.png",
+      "bytes": 204605,
+      "sha256": "5d31b398a84a930387d2c8cfed755a40099d916f03eb16f507e3c55a3b56dfd9",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_82_03_n00.png",
+      "bytes": 200486,
+      "sha256": "41e55182b888cd07ebb8aa4c7d0dedb541559b0e4ee6184be2977f13dc39c03b",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_83_00_n00.png",
+      "bytes": 203429,
+      "sha256": "c6545df0ae3e2a3b68bb5b639117d6c0cf16812a6ba1aa0b6b7afbcb5cb8e74f",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_83_00_n04.png",
+      "bytes": 210411,
+      "sha256": "009a078993dc37ffee284534d85e0c1550fec0e95492cc2395b7696d22ad1450",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_83_00_n05.png",
+      "bytes": 204658,
+      "sha256": "f240fe9b0cf0d52899b9b0d0066666bfcce93bb542c076955225ce21348771c2",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_83_00_n06.png",
+      "bytes": 207832,
+      "sha256": "de50d0759c8ee08673c7b2da26871f556a208c7ef4e4c743bf61dbab763ca7f2",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_06_n00.png",
+      "bytes": 209221,
+      "sha256": "f19a7a67fa6d41ef49241b52e62c1d51e3dcef5131555a99e2a34002e0f82005",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_06_n00_01_00.png",
+      "bytes": 205097,
+      "sha256": "0bdd1ad2836e6dbcbfa4c2d9e76c7bbddcd1e1db811bee7c0e3a30d2c3340763",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_06_n00_02_00.png",
+      "bytes": 208172,
+      "sha256": "0951bcb0aad1addc8335920b678dd2ca93082e058f06ece3dcec9f2be09e9d6b",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_06_n00_03_00.png",
+      "bytes": 211173,
+      "sha256": "8d576d6f32352873f9bfa5f140eb6f0bc9e7d373d722a302c18fbb09c2c1d218",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_06_n00_04_00.png",
+      "bytes": 215564,
+      "sha256": "43171192bcd29f9ceb740ae8f1b8b425bd76192d86cc6933b2a6bd5c973648bd",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_06_n00_05_00.png",
+      "bytes": 220725,
+      "sha256": "bc4fb36b86b6cfaad3fc2f47582ea9b06af9ee39c6349f287df57abcd67b7914",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_06_n00_06_00.png",
+      "bytes": 225623,
+      "sha256": "67d98aad8fd873cd44ad57e6295b373b0f62aeba2c5a93736cf7619c08b1299b",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_06_n00_07_00.png",
+      "bytes": 230388,
+      "sha256": "116e2b0827b2ece0700561943660cbf37911c56a845ed550fcacbb959f2d1be0",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_06_n00_08_00.png",
+      "bytes": 234934,
+      "sha256": "bd3270d059637d5e7724394c78e7f3a462ba162d405ef642f3b83b81c54696a1",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_06_n00_09_00.png",
+      "bytes": 239309,
+      "sha256": "bd0e425f3fcbe8ade9ca4d9421bca3c4d032fb65982c5853e8cd286d8de300e6",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_06_n00_10_00.png",
+      "bytes": 243849,
+      "sha256": "f28513e063641219c33265ce036d526777fdd2007a54fcebd46fd8bea809c8dd",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_06_n00_11_00.png",
+      "bytes": 248355,
+      "sha256": "05d524dd02ec29498c8ed3b00d12ad911da50235f02647d1df8c96f10534c21f",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_06_n00_12_00.png",
+      "bytes": 252899,
+      "sha256": "00b88c8c7ef0ccb8bc7b5195ffc70287980fb8b3b50bb34085c3c36ce507e54b",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_08_n00.png",
+      "bytes": 192946,
+      "sha256": "5ca7757c87beebaa0fcfd9a19e8d50d50b9ea6ee423dc3208fc38a36e32189f7",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_10_n01.png",
+      "bytes": 241851,
+      "sha256": "bf91b5aa48bf4262b427ccde733d06d61c7d8fe99396be42331c1115dd2186c8",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_10_n02.png",
+      "bytes": 238008,
+      "sha256": "3cd21d69270ef76377b8afed049cb33596d94fdb9244a9b8053c0deafd956e60",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_11_n00.png",
+      "bytes": 231385,
+      "sha256": "15036622a02180b15df20ce4ec2193619eef3f4635e68f35046c1d0036b6ad3c",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_12_n01.png",
+      "bytes": 207360,
+      "sha256": "f5a115988a15887b1f3c38c1194c28a87e46f0a22ae00da6788b8f8d91df4188",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_14_n00.png",
+      "bytes": 216647,
+      "sha256": "96bca1194249f3b24039e5713ef163ebdfee051357e9b9285987bfc1b5caec37",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_14_n00_00_01.png",
+      "bytes": 214021,
+      "sha256": "18f0bc16a1bff6b8c074db0f94ca6d69c4b9c37ac0297a9b38139eb3fd8fd9e5",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_14_n00_00_02.png",
+      "bytes": 214474,
+      "sha256": "c60b501d4a1d03a2ee7a56c8d208515d566b2d619a35ae96da7f56c1a1b624cc",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_14_n00_00_03.png",
+      "bytes": 216351,
+      "sha256": "190cc3de4b37d6a3fa69806ad98cba2bd4e6704a095585223996ba3b41790d69",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_14_n00_00_04.png",
+      "bytes": 219623,
+      "sha256": "66d0e98bcd4ea00fcd0e390bdfa306dd0dd549578b49d9418397952bc0de5696",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_14_n00_00_05.png",
+      "bytes": 223150,
+      "sha256": "5493f56af628da7ef221d83841e061523afee71c6ea1d36d605efcd05714c957",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_14_n00_00_06.png",
+      "bytes": 227386,
+      "sha256": "4ee37b1f865f7900634d24842b0224e7b365a58c4951f412c0dffd43c10ebde0",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_14_n00_00_07.png",
+      "bytes": 232000,
+      "sha256": "169d0582459c305f4c0df3000885fc8eb395c035489fb769c7ccaaba3383438d",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_14_n00_00_08.png",
+      "bytes": 236620,
+      "sha256": "ccf4fe3bd7c42aecebd5a2efa4af74b6cd324d20c8ce707c39c7507388f8bb44",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_14_n00_00_09.png",
+      "bytes": 241245,
+      "sha256": "a88c23725bdabeacef932e70db7ae5ae048877d1a266dd794aaa37b64d599c3d",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_14_n00_00_10.png",
+      "bytes": 246114,
+      "sha256": "ea7378552275ca3c10e969f02baf73bf35b930445f4afa792634611f229a5fff",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_14_n00_00_11.png",
+      "bytes": 250550,
+      "sha256": "ec67df8ee0cba0aa8756066ab2731a8f6dd28c2b237f707604dd36964087eab8",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_14_n02.png",
+      "bytes": 211867,
+      "sha256": "2729123019f6f51ba56082dc33667a85afedddb2d4351487560e45f5e846e3e8",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_15_n00.png",
+      "bytes": 296162,
+      "sha256": "f7a9ee054ec858a34e3f7869056dc2f063c40385a6a3e938cb2ee0033b0b63f6",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_15_n00_00_01.png",
+      "bytes": 291266,
+      "sha256": "4678eff6fae289ea7d6517565a7e26d50d9bf1581a4e494e44ee87805561a727",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_15_n00_00_02.png",
+      "bytes": 290836,
+      "sha256": "379f957aa7bc70e2f6308a974a9817cedc039dee3d346e59bb2f5876b76a9f32",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_15_n00_00_03.png",
+      "bytes": 292124,
+      "sha256": "0e6c36f1a20f4bfa2280f70eb6dd120f728d0dbc32bf118fcba553f1d0dfd29e",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_15_n00_00_04.png",
+      "bytes": 295332,
+      "sha256": "bb020bf5b9c55d810491d1ed325d003813922e91617a81b1b96f008c32b5ac39",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_15_n00_00_05.png",
+      "bytes": 299035,
+      "sha256": "74181d6c29c4135c75ec74bab7ae1b38f81d53d6888aae4fb69999247fd894d9",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_15_n00_00_06.png",
+      "bytes": 303156,
+      "sha256": "6eba1384f72413c23f0500539207cbf3d747fc760f408aaffd132d09479513f8",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_15_n00_00_07.png",
+      "bytes": 308079,
+      "sha256": "85bc0964ac07b70a39f80c020b0dbe92f4a8642d5dcc2069a44515da4a3bf751",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_15_n00_00_08.png",
+      "bytes": 313456,
+      "sha256": "399c5b6fb2df23bcee0519014fabae1e7bec65c4bef69de208a17d348b0b7a7e",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_15_n00_00_09.png",
+      "bytes": 317677,
+      "sha256": "cfea7e24f811f5f5fbf51ad7d13d4753918013c6ad5a530e996e684e620983f2",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_15_n00_00_10.png",
+      "bytes": 322987,
+      "sha256": "ccb5005f9bd8f7a9a6c0714fdcaa78ac775ac2ef7bdc9bc4010c0079fa956d9d",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_15_n00_00_11.png",
+      "bytes": 328034,
+      "sha256": "e2a5f3f8d8fd05a3104e38d262d5e0980c8de50c2939f643212160121480e16f",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_16_n01.png",
+      "bytes": 214307,
+      "sha256": "018a1fd08f16951f8f7fe9955f610a3334c6f6bc067899ff4d1ac67b09af75a1",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_17_n00.png",
+      "bytes": 206564,
+      "sha256": "a2fea0d258194256d12a7d737fa767d40d7ba36539dadad4a4f07e8c62b49a1e",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_18_n00.png",
+      "bytes": 219360,
+      "sha256": "ff6000672f63d199735b58a77e60f161353cebe58be080af7e2ea2e96bf6664b",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/performance/aru_a_84_19_n01.png",
+      "bytes": 220475,
+      "sha256": "497f3495d0779be8119d686694cc1d4e3f72a7ec1b28626f23ad56517ce6172e",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/sad.png",
+      "bytes": 339213,
+      "sha256": "299a7fe2b44e3b9610938d05a160be77846195da506433876ec99ab5f4f7a325",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/serious.png",
+      "bytes": 351320,
+      "sha256": "5836001bbd8607d02cb2c003fc99b7187f757af75eb82aab6a43cb7251b91678",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/smile.png",
+      "bytes": 337141,
+      "sha256": "60921c1ad9abcd74b69ef0973ea11a31f7d42b7f86e0b9173e593f5d04b2b3b4",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/smug.png",
+      "bytes": 326161,
+      "sha256": "badf715895ad886c1627af13150a7b939f028a6f43705e952155d772b5463eb3",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/stunned.png",
+      "bytes": 359791,
+      "sha256": "7587e970828d587ac0290d89b7d429ed7f70ca10cf8e0832a86c1bbb62d7c02a",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/neco_arc/surprised.png",
+      "bytes": 346748,
+      "sha256": "ef4952bab72bf3a4fe38271d8ee2cd91bfa491c0e7ce1298575ffd5358814634",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/aru_a_00_00_n00.png",
+      "bytes": 443269,
+      "sha256": "d2ea2f9851672418fb3ca11e48b9c2d961a2bc596bda24e3d6db312327eeef44",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/aru_a_00_03_n03.png",
+      "bytes": 442805,
+      "sha256": "3c046292f70f04742f0b55a6d14b2145baf456e7ed7e8849f160659fc7d6e70a",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/aru_a_00_05_n00.png",
+      "bytes": 434435,
+      "sha256": "3387129eec842741e606bf547938e7bee7492b172bcfe6dc34d4899978cd7809",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/aru_a_07_00_n02.png",
+      "bytes": 467676,
+      "sha256": "85870db47e5bc7b97c27ab79358d8dcb3953bfd82d06ac30faedb1cbeade807c",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/aru_a_07_00_n07.png",
+      "bytes": 468290,
+      "sha256": "50c0ce679ca89b4d6db691a5f7451af6b87277443db8ae38b99b69f01a287363",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/aru_a_07_02_n00.png",
+      "bytes": 432761,
+      "sha256": "3671a1a68432be1389fef5bfc26f4f47c36cadd77ffc9c73e3b4564ec9a783eb",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/aru_a_07_02_n11.png",
+      "bytes": 432091,
+      "sha256": "03e2e9db1f6af1cca0ec993bbbaa66d9e647ad0111c53b4de5b85bdd1ddf0639",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/aru_a_24_00_n00.png",
+      "bytes": 428919,
+      "sha256": "7524ffba5b721c10e2ac64ee82d7fc1e7e48781c4d983353b217cc51b35ea2a2",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/aru_a_00_03_n01.png",
+      "bytes": 2041599,
+      "sha256": "c00ed4947a4ad56941a07eb15ab7269ec2914c39eb8063725ca3da4cc8fe3941",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/aru_a_00_03_n03.png",
+      "bytes": 2045290,
+      "sha256": "be5593596a5b410f229d85fac604518fa670f62b64cbedab5e3f5c1763f8b049",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/aru_a_00_04_n02.png",
+      "bytes": 2097700,
+      "sha256": "094da2ef5459f3c4a0732da2f7e47af4cd1fdcda144ec097f27ae0a8733418ef",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/aru_a_00_05_n00.png",
+      "bytes": 1894956,
+      "sha256": "65d6d839ae069a72f0b017066065c1f529911967e611c02b304daac52a62f261",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/aru_a_11_02_n06.png",
+      "bytes": 1802918,
+      "sha256": "02640bc71118000a5a0c1504be092a431f29f8df4063e20f8f8467f85776f727",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/aru_a_11_02_n11.png",
+      "bytes": 1801934,
+      "sha256": "f1fcdd60f211d3c1c684752ddd351bd4f2d19584e517be7bd6992b6d82d50ba3",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/aru_a_11_03_n05.png",
+      "bytes": 1994067,
+      "sha256": "6e6c13d054c2efa325db38add4fb313f282d6d62b5482d0f9ad9edded50bc22a",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/aru_a_11_04_n01.png",
+      "bytes": 2001623,
+      "sha256": "b2bd8f9bb6fd8f58c59739d38f83ab8757e6dc6b0b6189abdd23b119390c29f8",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/aru_a_33_01_n02.png",
+      "bytes": 2559036,
+      "sha256": "490c9c834a1bc6018150c60038e44598fc3d9f2287b8e552ce1a5e21ea1f67aa",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/aru_a_42_30_n00.png",
+      "bytes": 2343018,
+      "sha256": "c4aa5247218aefafca828a5b55c91e6450377a66160155072d25a526e3c779ef",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/aru_a_42_30_n02.png",
+      "bytes": 2337850,
+      "sha256": "1d2bd21d000e7a3a88c901875db10d85980d88383214e18f5e72b6c16a4284a4",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/aru_a_42_30_n04.png",
+      "bytes": 2336911,
+      "sha256": "2a2ea72a449e232849ea2e0aa52050363540577d1342e8ee254d7ac3f4e892e3",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/aru_a_42_30_n08.png",
+      "bytes": 2341760,
+      "sha256": "a20e267eaf317983d65f102c53a50e83fbd097068ef3a43c69d4aad43647d8d8",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/aru_a_42_30_n09.png",
+      "bytes": 2365311,
+      "sha256": "755ad2cbbc482e3296921d267fd638348f6771c65641752d10447d3b4f1bfa75",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/aru_a_42_30_n13.png",
+      "bytes": 2360668,
+      "sha256": "5722a5d097048b49d92dff57658b392a3ac201bd0217c73dc08246c2edc0bb32",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/aru_a_43_30_n01.png",
+      "bytes": 2395200,
+      "sha256": "5cbfadffdc4f7e6d47dbdf5e3f4c578a949da8e7c85a0614a6c4a73915689b20",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/generated/park_01_ciel_v1.png",
+      "bytes": 1768932,
+      "sha256": "8da57d27fdf84423fb7166e73042d90e788fe76f7e2f3770a6c3c181ddb3a233",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/generated/park_34_arcueid_v1.png",
+      "bytes": 1801361,
+      "sha256": "a2434503d1c843b99aa49741fd7ac6dea13b40e48ef73dcffb5862b0dd155b50",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/generated/park_arc_purple_v1.png",
+      "bytes": 2053927,
+      "sha256": "097779346a70936e01f3fb6e921995f8f9c7531bbd5abd9bc6d6aa96368a9f41",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/generated/park_ciel_motion_v1.png",
+      "bytes": 1722623,
+      "sha256": "086203779c602de6e002420558336b2f4da7c1edc58ce2405a3428dfd8614699",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/generated/park_ciel_tail_v1.png",
+      "bytes": 1709419,
+      "sha256": "f4e5af03b83cebb400bb27e63ddea1eeecbf9f8889d818d0eae419db7d4d1d0e",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/generated/park_impact_v1.png",
+      "bytes": 1972165,
+      "sha256": "569900a959ab01b7a0b0f63c61e02f24e3cd5d45daed87881a2e33def9be8db6",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/generated/park_moon_v1.png",
+      "bytes": 1364155,
+      "sha256": "5372b8c8d00f36ac7f0ac83d25a7d5b08ac7e668664a7fab83bc32ecf5e781cd",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/generated/park_red_transition_v1.png",
+      "bytes": 1481416,
+      "sha256": "245cace5f45a572e9c513422806605908d54a4eef427a6dd40b21f051f69d4d5",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/img0677.png",
+      "bytes": 2098370,
+      "sha256": "702541d73ba61884d8b54827f8d2fea08dc9bd06e58fde6b6541eeaf2a2e2232",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/IMG3767.png",
+      "bytes": 508566,
+      "sha256": "f630fbc8f424ed0e5c3fa23d7347b87e34dc93a1d4380bd9b8527ddbe5fbf26b",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/sie_a_09_01_n00.png",
+      "bytes": 2162459,
+      "sha256": "2b6ee6909c7b6895f662eb19e3ea57495cf76b458dbc4eb27d5b1720e34e0856",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/sie_a_09_03_n00.png",
+      "bytes": 2141101,
+      "sha256": "aca0cb45f3ae8dba47be1541c1a15543daed42e9061767615f75ae459383e58d",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/sie_a_09_04_n03.png",
+      "bytes": 2517701,
+      "sha256": "0a31b9c1efa51a081b1771bb74d263d6df7be84f6bc8558feba329fae2d55c9f",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/sie_a_47_00_n03.png",
+      "bytes": 1621729,
+      "sha256": "1ba0149f7ed6bd95d9ebb92ca3c66fd1a3648ac1a87de6ebfa3d967cdaa37bf8",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/sie_a_51_00_n22.png",
+      "bytes": 3169359,
+      "sha256": "3535e2aa42dc6f7ed054cc22f814fc6c72e12cc6314721906150666403231665",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/closeups/sie_a_55_01_n01.png",
+      "bytes": 1912054,
+      "sha256": "c88703da0206610a99871823c744ebdf383f469b341ebdfe3abab9bc581ef5c1",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/scripted/aru_a_00_05_n00.png",
+      "bytes": 1894956,
+      "sha256": "65d6d839ae069a72f0b017066065c1f529911967e611c02b304daac52a62f261",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/scripted/aru_a_00_05_n01.png",
+      "bytes": 1895664,
+      "sha256": "ba6260db7c6e239f0cb2f8b8c18a73b6da45a82b36c63221ba7572dfaf9bbb83",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/scripted/aru_a_00_05_n02.png",
+      "bytes": 1896108,
+      "sha256": "9254d51cd912130e2ad1366691775b85bbf54bd251f381db96b1742c2e80d8d9",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/scripted/aru_a_00_07_n00.png",
+      "bytes": 1967842,
+      "sha256": "f5bf32a84514f9a0fcadc3127245f6aa5ada7f4a0b037fbbe53f03821a271df5",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/scripted/sie_a_09_01_n04.png",
+      "bytes": 2164795,
+      "sha256": "a364de1c02c2db1b14e72798271310492ea767dc171496d1f5fc738cee0db4ca",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/scripted/sie_a_09_02_n01.png",
+      "bytes": 2159131,
+      "sha256": "705611e6c2ac350667fbbf14aa7acd05ba6cee4943ab7bbc1b81c30fb611773b",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/scripted/sie_a_09_03_n00.png",
+      "bytes": 2141101,
+      "sha256": "aca0cb45f3ae8dba47be1541c1a15543daed42e9061767615f75ae459383e58d",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/scripted/sie_a_09_03_n01.png",
+      "bytes": 2140685,
+      "sha256": "8485d2dc0321314e5b7952751bdb15c322f23b6ecfa00ae2deec4391a2d817a9",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/scripted/sie_a_09_03_n03.png",
+      "bytes": 2137785,
+      "sha256": "c01637f77983bda223325ad4e42623a2c3379453fae060f6f8069849babe935e",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/scripted/sie_a_09_04_n03.png",
+      "bytes": 2517701,
+      "sha256": "0a31b9c1efa51a081b1771bb74d263d6df7be84f6bc8558feba329fae2d55c9f",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/scripted/sie_a_09_04_n05.png",
+      "bytes": 2514063,
+      "sha256": "67c31932dda1f88a6366c6df6ad03cf852e76827204f72d92d4b91a937fcdcfb",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/scripted/sky_strip.png",
+      "bytes": 97779,
+      "sha256": "d839e3fcc6ac9f4c341216f4edcb778211f032be29807cc5dd01358ffdaa53f0",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/sie_a_09_00_n00.png",
+      "bytes": 476755,
+      "sha256": "b40e3ac654a8dda18d86baca038dc02cb3e559c8387d364eab3c989f969ed8c1",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/sie_a_09_01_n00.png",
+      "bytes": 439449,
+      "sha256": "8c22e00a3e82ec65583a99f597cefffd1dd10ae672bd5291e0cd01a8ef6c1f9d",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/sie_a_09_02_n01.png",
+      "bytes": 443235,
+      "sha256": "c0b4e1f7e320c798c44feb17b1abc4b02caddc4cfcee63ea02a730e52a7b7acd",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/sie_a_09_03_n00.png",
+      "bytes": 435647,
+      "sha256": "028384914fdab8791946e1a79ae0d2b615485d06bac97824720b2fc7b66e5769",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/sie_a_09_04_n03.png",
+      "bytes": 521562,
+      "sha256": "b62e9660caea82d0094f64c3bf18d7d539d6047ba669325b03cbec248dd36a06",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/characters/park_sequence/sie_a_09_04_n05.png",
+      "bytes": 519997,
+      "sha256": "6a76114aabb155d1d518af6b8677011059c1ce8626b22c7e4dcaec2e0e4b9f0c",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/music/chapter-transition.mp3",
+      "bytes": 92212,
+      "sha256": "792f934c372738a2343f222f86fd52d777c61d5bd577ae9bdb6586ef9991989d",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/music/classroom.mp3",
+      "bytes": 7307214,
+      "sha256": "ccaf77dcd59d7282a62cb7edc05cf52936356707c0ced822598c72ac96d73986",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/music/title.mp3",
+      "bytes": 13800070,
+      "sha256": "3051dcde2ae8929913df157a02e3ffdf40b6af3ecab732be0ed1dd7d8c52ab76",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/ui/classroom/commands-atlas.png",
+      "bytes": 24712,
+      "sha256": "cc789a12c633749a29755c2c78227c4a74621256737623b9668de255829913d2",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/ui/classroom/frost-edge.png",
+      "bytes": 23581,
+      "sha256": "47ceb891091ae843683c6c2ae359957ad54a7ee91dffbdf1794aea5fe708d59b",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/ui/classroom/hover-line.png",
+      "bytes": 1513,
+      "sha256": "87e7a7e7421218a4f592b3b7ce4862a20cacd87bfa67a3f4189d67b27c946d0c",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/ui/classroom/menu-vignette.png",
+      "bytes": 53845,
+      "sha256": "59e456947d53d147521e6e9a2b2dd68dc127f91157f48f0c0702e528a939c5d5",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/ui/classroom/neco-bubble.png",
+      "bytes": 75467,
+      "sha256": "647dc0bfaf12941403a1166d2914dd249931640b8b5c355fff09cc4cb530b7f4",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/ui/classroom/settings-atlas.png",
+      "bytes": 26859,
+      "sha256": "2c5c6a17ce9854a9e2d38ac4524a0b071202d6f2b18d80b88c194995c49ca87f",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/ui/classroom/teacher-bubble.png",
+      "bytes": 68057,
+      "sha256": "92eb96a028cadda7bc059f7686bcddf1f0a6a3b6e28baa8704dc0cd972e549b5",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/ui/moon-clouds.png",
+      "bytes": 2102431,
+      "sha256": "c7bdd11f3e9ff36a06b983fae4a479eeecde73dbd6c11a34b4e7005e46b98f6b",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/ui/title-logo-source.png",
+      "bytes": 28387,
+      "sha256": "4357273e932de97f770e6dd3b2fb7b889231b0362a7f828a3ad3ab81e4196725",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/assets/ui/title-moon-source.png",
+      "bytes": 894225,
+      "sha256": "a7f9bc36008652a8f3544d545d574c7a9a11d20a5cb65a62de4e2cf03e50ab7f",
+      "group": "media",
+      "required": true
+    },
+    {
+      "path": "game/ArcueidStage/data/park_sequence.json",
+      "bytes": 177709,
+      "sha256": "142ab67214b5ff3375ff494f50a7633e088cc7f918311afd6eccc6f45203d7f8",
+      "group": "story",
+      "required": true
+    },
+    {
+      "path": "core/arcueid_core/knowledge/lore_cards.json",
+      "bytes": 55300,
+      "sha256": "7d3477e599e247014156e0a38ee16cefb8dd612d4aba19e321ae5257b8ec37df",
+      "group": "knowledge",
+      "required": false
+    },
+    {
+      "path": "core/arcueid_core/knowledge/neco_arc.json",
+      "bytes": 1507,
+      "sha256": "0a7fd158dab9b770c99ce5344ffe0426552dddaf8e9e3f1aca8bd06a47fe7e5e",
+      "group": "knowledge",
+      "required": false
+    }
+  ]
+}

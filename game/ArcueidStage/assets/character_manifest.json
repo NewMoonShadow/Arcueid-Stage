@@ -1,0 +1,229 @@
+{
+  "neutral": {
+    "asset": "res://assets/characters/arcueid/performance/aru_a_02_00_n00.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_02_00_n00.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_02_00_n04.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_09_02_n05.png"
+      }
+    ]
+  },
+  "smile": {
+    "asset": "res://assets/characters/arcueid/performance/aru_a_05_01_n03.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_05_01_n03.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_05_01_n05.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_02_03_n03.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_02_06_n00.png"
+      }
+    ]
+  },
+  "curious": {
+    "asset": "res://assets/characters/arcueid/performance/aru_a_05_01_n00.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_05_01_n00.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_09_02_n08.png"
+      }
+    ]
+  },
+  "serious": {
+    "asset": "res://assets/characters/arcueid/performance/aru_a_02_05_n00.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_02_05_n00.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_02_05_n02.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_09_02_n10.png"
+      }
+    ]
+  },
+  "annoyed": {
+    "asset": "res://assets/characters/arcueid/performance/aru_a_09_02_n09.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_09_02_n09.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_05_01_n04.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_16_00_n05.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_05_05_n00.png"
+      }
+    ]
+  },
+  "surprised": {
+    "asset": "res://assets/characters/arcueid/performance/aru_a_09_02_n08.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_09_02_n08.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_02_05_n03.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_09_02_n02.png"
+      }
+    ]
+  },
+  "laughing": {
+    "asset": "res://assets/characters/arcueid/performance/aru_a_05_01_n08.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_05_01_n08.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_05_01_n09.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_02_03_n04.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_02_34_n02.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_16_00_n01.png"
+      }
+    ]
+  },
+  "wink": {
+    "asset": "res://assets/characters/arcueid/performance/aru_a_05_01_n10.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_05_01_n10.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_05_01_n11.png"
+      }
+    ]
+  },
+  "proud": {
+    "asset": "res://assets/characters/arcueid/performance/aru_a_02_03_n01.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_02_03_n01.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_02_04_n03.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_05_05_n01.png"
+      }
+    ]
+  },
+  "thinking": {
+    "asset": "res://assets/characters/arcueid/performance/aru_a_02_03_n00.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_02_03_n00.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_05_01_n06.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_16_00_n02.png"
+      }
+    ]
+  },
+  "shy": {
+    "asset": "res://assets/characters/arcueid/performance/aru_a_09_02_n03.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_09_02_n03.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_09_02_n04.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_02_33_n01.png"
+      }
+    ]
+  },
+  "pouting": {
+    "asset": "res://assets/characters/arcueid/performance/aru_a_02_06_n01.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_02_06_n01.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_05_01_n04.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_16_00_n05.png"
+      }
+    ]
+  },
+  "sad": {
+    "asset": "res://assets/characters/arcueid/performance/aru_a_16_00_n04.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_16_00_n04.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_05_01_n06.png"
+      }
+    ]
+  },
+  "explaining": {
+    "asset": "res://assets/characters/arcueid/performance/aru_a_02_03_n01.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_02_03_n01.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_02_03_n03.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_02_04_n02.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_02_34_n01.png"
+      }
+    ]
+  },
+  "teasing": {
+    "asset": "res://assets/characters/arcueid/performance/aru_a_16_00_n00.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_16_00_n00.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_16_00_n03.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_05_01_n11.png"
+      }
+    ]
+  },
+  "delighted": {
+    "asset": "res://assets/characters/arcueid/performance/aru_a_05_01_n09.png",
+    "variants": [
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_05_01_n09.png"
+      },
+      {
+        "asset": "res://assets/characters/arcueid/performance/aru_a_16_00_n03.png"
+      }
+    ]
+  }
+}
