@@ -2,6 +2,8 @@
 
 完整语音链路为 Godot → Core → Proxy → 本机 GPT-SoVITS。Core／Proxy 使用 Windows Python 3.11；语音引擎使用独立 WSL Ubuntu 环境。默认只监听本机，不需要开放公网端口。
 
+语音代理就绪后，启动器会依次为三位角色绕过缓存合成一句短台词，并检查流式 WAV。单个角色预热失败时会显示警告，游戏仍会启动。`Start.bat -SkipVoice` 跳过语音服务和预热。
+
 1. 使用 `scripts/setup/setup.ps1 -FetchVoiceEngine` 获取 `dependencies/gpt-sovits.lock.json` 固定的引擎代码。目标目录为 `runtime/gpt-sovits/`；已有目录时不会覆盖。
 2. 按该版本官方引擎说明安装适合本机的 PyTorch／CUDA 依赖，独立环境放在 `runtime/voice-venv/`。现有验证环境为 Python 3.10.12，与 Core／Proxy 分开，不能混用两个环境。
 3. 角色权重目录 `GPT_weights_v2Pro/` 和 `SoVITS_weights_v2Pro/` 放到引擎根目录。具体模型文件名见 `voice/profiles/voices.json`。共享底模放引擎的 `GPT_SoVITS/pretrained_models/`，包括匹配版本的中文 BERT、HuBERT 与 v2Pro 依赖。

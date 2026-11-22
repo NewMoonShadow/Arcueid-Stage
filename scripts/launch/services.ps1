@@ -44,4 +44,7 @@ foreach ($service in @(@{Port=8765; Script='Run-Core.ps1'; Health='/api/v2/healt
         ConvertTo-Json -InputObject $identities -Depth 4 | Set-Content -Encoding UTF8 -LiteralPath $identityFile
     }
     Write-Host "$($service.Name) ready on 127.0.0.1:$($service.Port)"
+    if ($service.Name -eq 'Proxy') {
+        & (Join-Path $script:StageRoot 'voice\warmup.ps1') -StreamUrl "http://127.0.0.1:$($service.Port)/api/tts/stream"
+    }
 }
